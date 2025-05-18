@@ -88,6 +88,7 @@ Before you can start rewriting, you need to plug in your **OpenAI API key**.
 [API]
 OPENAI_API_KEY = sk-xxxxxx
 ```
+{: file='settings.ini'}
 
 Done? You're ready to unleash AI magic.
 
