@@ -84,7 +84,7 @@ Since it's browser-based, team members can **share links**, co-develop, or revie
 
 ### **🔗 Step 1: Visit the Platform**
 
-Head over to <a rel="noopener noreferrer nofollow" target='_blank' href=""></a> {% include nofollow-link.html url="https://von.dev/" text="Von.DEV" %} and sign up for early access.
+Head over to {% include nofollow-link.html url="https://von.dev/" text="Von.DEV" %} and sign up for early access.
 
 ### **🧩 Step 2: Set Up Your Workspace**
 
