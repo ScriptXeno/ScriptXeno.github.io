@@ -28,48 +28,38 @@ In today's cybersecurity landscape, effective subdomain enumeration is essential
 
 ## 📚 Table of Contents
 
-- [Introduction to SmartSubAI](#introduction-to-smartsubai)
-  - [📚 Table of Contents](#-table-of-contents)
-  - [🧠 Introduction to SmartSubAI](#-introduction-to-smartsubai)
-  - [🚀 Key Features of SmartSubAI](#-key-features-of-smartsubai)
-    - [🔍 Advanced Subdomain Enumeration](#-advanced-subdomain-enumeration)
-    - [🤖 AI-Powered Risk Assessment](#-ai-powered-risk-assessment)
-    - [📊 Comprehensive Reporting System](#-comprehensive-reporting-system)
-  - [🛠️ Installation Guide](#️-installation-guide)
-    - [📂 Cloning the Repository](#-cloning-the-repository)
-    - [🧪 Setting Up a Virtual Environment](#-setting-up-a-virtual-environment)
-    - [📦 Installing Required Dependencies](#-installing-required-dependencies)
-    - [🔐 Configuring Your API Key](#-configuring-your-api-key)
-  - [🧪 Using SmartSubAI](#-using-smartsubai)
-    - [⚙️ Basic Usage Explained](#️-basic-usage-explained)
-    - [⚡ Advanced Command-Line Options](#-advanced-command-line-options)
-  - [⚙️ Deep Dive into Configuration](#️-deep-dive-into-configuration)
-  - [🧾 Real-World Usage Examples](#-real-world-usage-examples)
-    - [✅ Standard Scan](#-standard-scan)
-    - [📝 Custom Wordlist](#-custom-wordlist)
-    - [🚀 High-Performance Mode](#-high-performance-mode)
-    - [🎯 Limited Enumeration](#-limited-enumeration)
-  - [💡 Benefits of Using SmartSubAI](#-benefits-of-using-smartsubai)
-  - [🔬 Behind the Scenes](#-behind-the-scenes)
+- [📚 Table of Contents](#table-of-contents)
+  - [🚀 Key Features of SmartSubAI](#key-features-of-smartsubai)
+    - [🔍 Advanced Subdomain Enumeration](#advanced-subdomain-enumeration)
+    - [🤖 AI-Powered Risk Assessment](#ai-powered-risk-assessment)
+    - [📊 Comprehensive Reporting System](#comprehensive-reporting-system)
+  - [🛠️ Installation Guide](#installation-guide)
+    - [📂 Cloning the Repository](#cloning-the-repository)
+    - [🧪 Setting Up a Virtual Environment](#setting-up-a-virtual-environment)
+    - [📦 Installing Required Dependencies](#installing-required-dependencies)
+    - [🔐 Configuring Your API Key](#configuring-your-api-key)
+  - [🧪 Using SmartSubAI](#using-smartsubai)
+    - [⚙️ Basic Usage Explained](#basic-usage-explained)
+    - [⚡ Advanced Command-Line Options](#advanced-command-line-options)
+  - [⚙️ Deep Dive into Configuration](#deep-dive-into-configuration)
+  - [🧾 Real-World Usage Examples](#real-world-usage-examples)
+    - [✅ Standard Scan](#standard-scan)
+    - [📝 Custom Wordlist](#custom-wordlist)
+    - [🚀 High-Performance Mode](#high-performance-mode)
+    - [🎯 Limited Enumeration](#limited-enumeration)
+  - [💡 Benefits of Using SmartSubAI](#benefits-of-using-smartsubai)
+  - [🔬 Behind the Scenes](#behind-the-scenes)
     - [Cohere AI Integration](#cohere-ai-integration)
     - [DNS Resolution Engine](#dns-resolution-engine)
-  - [🤝 Contribution Guidelines](#-contribution-guidelines)
-  - [📄 Licensing and Acknowledgments](#-licensing-and-acknowledgments)
-  - [🏁 Conclusion](#-conclusion)
-  - [❓ FAQs](#-faqs)
+  - [🤝 Contribution Guidelines](#contribution-guidelines)
+  - [📄 Licensing and Acknowledgments](#licensing-and-acknowledgments)
+  - [🏁 Conclusion](#conclusion)
+  - [❓ FAQs](#faqs)
     - [What makes SmartSubAI different from other tools?](#what-makes-smartsubai-different-from-other-tools)
     - [Is SmartSubAI suitable for beginners?](#is-smartsubai-suitable-for-beginners)
     - [Does it support private DNS servers?](#does-it-support-private-dns-servers)
     - [Can I integrate it into CI/CD pipelines?](#can-i-integrate-it-into-cicd-pipelines)
     - [Is AI risk scoring customizable?](#is-ai-risk-scoring-customizable)
-
----
-
-## 🧠 Introduction to SmartSubAI
-
-Ever found yourself tangled in endless lists of subdomains during reconnaissance, wishing there was a smarter way to filter out the noise and prioritize threats?
-
-**SmartSubAI** is an innovative tool that combines traditional subdomain enumeration with **AI-driven risk assessment**. It brings automation and intelligence together to help you identify and prioritize high-risk assets effortlessly.
 
 ---
 
