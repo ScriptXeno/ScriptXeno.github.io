@@ -9,8 +9,8 @@ image:
   path: https://oceanofanything.github.io/scriptxeno-images-2-17-26/2026-02-17-picoclaw-the-ultimate-lightweight-ai-agent.webp
   alt: 🦐 PicoClaw: The Ultra-Lightweight AI Assistant Built for $10 Hardware
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
+
 # Introduction: What is PicoClaw?
 
 PicoClaw is an ultra-lightweight AI assistant written entirely in Go, designed to run on extremely low-cost hardware while consuming less than 10MB of RAM. It represents a new category of minimal AI agents optimized for performance, portability, and efficiency.
