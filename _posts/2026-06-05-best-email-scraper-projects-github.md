@@ -11,6 +11,7 @@ image:
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 
 ---
+
 # Best Email Scraper Projects on GitHub with Strong Community Support
 
 Open-source email scrapers remain popular among developers, marketers, researchers, and cybersecurity professionals who need to extract publicly available contact information from websites. However, GitHub contains hundreds of email extraction projects, making it difficult to determine which repositories are actually maintained, trusted, and useful.
