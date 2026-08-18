@@ -9,3 +9,12 @@ export const repoRoot = path.resolve(here, "..", "..", "..", "..");
 export const postsDir = path.join(repoRoot, "_posts");
 export const authorsFile = path.join(repoRoot, "_data", "authors.yml");
 export const generatedDir = path.join(repoRoot, "tools", "blog-mcp", "generated");
+
+export function resolvePostPath(filename: string): string {
+  const withExt = filename.endsWith(".md") ? filename : `${filename}.md`;
+  const resolved = path.join(postsDir, withExt);
+  if (path.dirname(resolved) !== postsDir) {
+    throw new Error(`Invalid filename: ${filename}`);
+  }
+  return resolved;
+}

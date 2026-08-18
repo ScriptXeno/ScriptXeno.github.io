@@ -2,7 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { postsDir } from "../lib/paths.js";
+import { postsDir, resolvePostPath } from "../lib/paths.js";
 import {
   assemblePostFile,
   assembleWithRawFrontMatter,
@@ -44,15 +44,6 @@ function todayInKolkata(): string {
   }).formatToParts(new Date());
   const get = (t: string) => parts.find((p) => p.type === t)!.value;
   return `${get("year")}-${get("month")}-${get("day")}`;
-}
-
-function resolvePostPath(filename: string): string {
-  const withExt = filename.endsWith(".md") ? filename : `${filename}.md`;
-  const resolved = path.join(postsDir, withExt);
-  if (path.dirname(resolved) !== postsDir) {
-    throw new Error(`Invalid filename: ${filename}`);
-  }
-  return resolved;
 }
 
 const imageSchema = z.object({

@@ -97,6 +97,22 @@ categories are separate corpora with their own established conventions (e.g. tag
 use lowercase `ai`, categories use `AI` — both are legitimate, separately-established
 casings, not a collision to fix).
 
+### Thumbnails
+
+#### `build_thumbnail_prompt`
+| Input | Type | Notes |
+|---|---|---|
+| `filename` | string | existing post |
+| `headline` | string | optional short punchy headline (3-6 words) to render on the thumbnail; strongly recommended over the automatic fallback (a truncated version of the post title) |
+| `subjectOverride` | string | optional — what the supporting graphic should depict, if different from the post's `description` |
+| `aspectRatio` | string | default `"16:9"` |
+
+Returns `{ filename, prompt, headline, aspectRatio }` — a detailed, ready-to-use prompt
+combining the post's specific subject with a **fixed house style** (see
+[Thumbnail house style](#thumbnail-house-style)), so thumbnails stay visually consistent
+across posts instead of each one being styled ad hoc. Does not generate anything itself —
+feed the returned `prompt` to `generate_image`.
+
 ### Images
 
 #### `create_image_repo`
@@ -151,6 +167,21 @@ which triggers `pages-deploy.yml` and goes live. There is no undo tool; revert w
 `git revert <sha>` if needed (the returned `commitSha` is exactly what you'd revert).
 
 ## Design notes
+
+### Thumbnail house style
+
+The site's actual published thumbnails today are inconsistent — a beige stock-photo banner,
+a navy 3D-render poster, and a neon cyberpunk graphic all coexist with no shared visual
+identity (confirmed by pulling and viewing several real ones). Rather than inventing a style
+from nothing, `build_thumbnail_prompt` (`src/lib/thumbnailStyle.ts`) grounds its fixed house
+style in the site's actual, already-consistent brand assets: `assets/logo/logo.png` and
+`assets/preview/ScriptXeno-Social-Preview-Image.png` (a stark black-and-white "SX" monogram,
+bold geometric type, pure black background), plus the real accent color used throughout the
+site's own UI (`_sass/themes/_dark.scss`'s `--link-color`/`--toc-highlight`,
+`rgb(138, 180, 248)`). The style is baked into one constant applied to every prompt — relying
+on whoever/whatever writes a prompt to remember the brand each time is what produced the
+inconsistency in the first place. Adjust `THUMBNAIL_HOUSE_STYLE` directly if the desired look
+ever changes; every future thumbnail prompt picks up the change automatically.
 
 ### Front matter: parsing vs. writing
 
