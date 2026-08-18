@@ -25,3 +25,8 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+# blog-mcp local server
+tools/blog-mcp/.env
+tools/blog-mcp/generated/
+tools/blog-mcp/build/

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "scriptxeno-blog": {
+      "command": "node",
+      "args": ["G:/ScriptXeno/ScriptXeno.github.io/tools/blog-mcp/build/index.js"]
+    }
+  }
+}
