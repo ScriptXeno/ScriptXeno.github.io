@@ -150,10 +150,22 @@ export function serializeFrontMatter(data: PostFrontMatter): string {
 }
 
 export function parsePostFile(raw: string): { data: PostFrontMatter; content: string; rawFrontMatter: string } {
-  const parsed = matter(raw);
+  // gray-matter caches parsed results in a module-level object keyed by raw content,
+  // but only when called with no options object -- passing `{}` (rather than nothing)
+  // opts out of that cache. This server is one long-running process shared by every
+  // concurrent tool call (confirmed live: a single node process handled 8+ parallel
+  // subagents), and that shared cache was the root cause of a real, reproduced bug
+  // where a post's front matter was silently overwritten with the literal text
+  // "undefined" after concurrent write_post/list_tags calls from other posts' saves.
+  const parsed = matter(raw, {});
   const data = parsed.data as PostFrontMatter;
   if ("date" in data) {
     (data as Record<string, unknown>).date = normalizeDate(data.date);
+  }
+  if (typeof parsed.matter !== "string") {
+    throw new Error(
+      `gray-matter failed to extract a front-matter block from this file (got ${typeof parsed.matter} instead of a string) -- refusing to continue rather than risk corrupting the file.`
+    );
   }
   return { data, content: parsed.content, rawFrontMatter: parsed.matter };
 }
@@ -167,6 +179,11 @@ export function assemblePostFile(data: PostFrontMatter, content: string): string
  * gray-matter's `.matter` already carries a leading newline (and no trailing one), so the
  * template only adds the newline before the closing `---`, not after the opening one. */
 export function assembleWithRawFrontMatter(rawFrontMatter: string, content: string): string {
+  if (typeof rawFrontMatter !== "string" || rawFrontMatter.trim().length === 0) {
+    throw new Error(
+      "Refusing to write a post with an empty or missing front-matter block -- this would have silently destroyed the file's title/tags/image."
+    );
+  }
   return `---${rawFrontMatter}\n---\n${content}`;
 }
 
