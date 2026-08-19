@@ -31,6 +31,11 @@ github:
 twitter:
   username: oceanofanything # change to your Twitter username
 
+# Used by jekyll-seo-tag to emit a JSON-LD `publisher` block on every page.
+# Without this, `publisher` is silently omitted sitewide (jekyll-seo-tag's
+# JSONLDDrop#publisher only fires when site.logo is set).
+logo: https://scriptxeno.github.io/assets/logo/logo.png
+
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
