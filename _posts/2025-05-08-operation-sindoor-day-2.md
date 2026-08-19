@@ -15,11 +15,6 @@ image:
 
 Operation Sindoor, India’s military response to Pakistan’s provocations, has entered its second day, with tensions intensifying between the two nations. India’s airstrikes on key Pakistani military installations, coupled with an increased military presence along the border, have escalated the conflict. Pakistan has condemned the strikes, calling them an act of aggression, while India maintains that the operation is a defensive measure to safeguard its sovereignty. 
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 Both sides have increased their military readiness, with Pakistan warning of retaliation. As the situation grows more volatile, the international community watches closely, urging both countries to pursue diplomatic solutions to avoid further escalation. The conflict’s outcome remains uncertain, but the region’s security continues to be a key concern.
 
 ## Table of Contents

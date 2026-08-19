@@ -17,11 +17,6 @@ image:
 
 What does it really mean when a company at the frontlines of artificial intelligence pledges to “show their work” more often? That’s the latest big move from OpenAI, the trailblazer behind ChatGPT and other headline-grabbing AI breakthroughs. In an industry where the pace is breathtaking, and the stakes are sky-high, OpenAI is seeking to turn the dial up on transparency in a way that just might reset expectations across the AI world.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 In this deep dive, we’ll unpack OpenAI’s commitment to routinely publish its internal AI safety test results, explore the new Safety Evaluations Hub, analyze recent controversies, and scrutinize what this transparency drive could actually mean for the future of AI. So, buckle up—let’s see if this step is true progress, clever PR, or maybe a bit of both.
 
 ---

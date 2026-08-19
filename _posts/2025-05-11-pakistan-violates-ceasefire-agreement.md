@@ -15,11 +15,6 @@ image:
 
 The fragile relationship between India and Pakistan took a pivotal turn on **May 10, 2025**, as both nations agreed to a [**sudden ceasefire**](https://shrinkme.ink/pyGN40C), bringing a brief pause to days of cross-border violence and political hostility. However, celebrations were short-lived as [**explosions and violations**](https://shrinkme.ink/gO7UBf) were reported just hours after the agreement took effect.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## Ceasefire Agreement Announced
 
 ![LOC](https://scriptxeno.github.io/2025-05-11-pakistan-violates-ceasefire-agreement-images/loc.webp){:.shadow}

@@ -16,11 +16,6 @@ image:
 
 Apple is reportedly gearing up to raise prices for its upcoming iPhone lineup expected to launch this fall. While the tech giant hasn’t officially commented, sources cited by *The Wall Street Journal* suggest Apple is tactically distancing the price increase from the ongoing U.S.-China tariff tension, instead attributing it to advanced features and cutting-edge designs.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## **New Features May Justify the Hike**
 
 According to anonymous insiders within the supply chain, Apple could justify the price changes through innovations like ultra-thin builds and upgraded technology in its 2025 iPhones. With rumors swirling about a sleek, ultra-thin model and enhanced designs, Apple may be shifting focus from political reasons to product evolution to soften customer reaction.

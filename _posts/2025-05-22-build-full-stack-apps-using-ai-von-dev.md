@@ -13,11 +13,6 @@ image:
 ---
 In today’s fast-paced tech world, developers are constantly looking for ways to increase efficiency and reduce friction in their workflows. Enter **Von.dev** — an innovative, **AI-native development platform** that makes full-stack application development seamless, intelligent, and cost-free.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## **🚀 What is Von.dev?**
 
 **Von.dev** is a **browser-based, AI-powered development environment** that resembles the familiar feel of **VS Code**, enhanced with cutting-edge AI features. With built-in support for full-stack development and integrations like **OpenRouter** and **Google Sheets**, Von.dev is designed to supercharge your coding experience.

@@ -315,4 +315,4 @@ It may depend on building a workforce made of silicon.
 
 ### About the Author
 
-Nakshatra Ranjan Saha is an entrepreneur and technology enthusiast focused on AI, automation, digital growth, and modern business systems. Through [N&D Co.](https://www.ndcompany.in/), he explores how emerging technologies can help businesses scale faster with smarter workflows and operational efficiency.
+Nakshatra Ranjan Saha is an entrepreneur and technology enthusiast focused on AI, automation, digital growth, and modern business systems. Through [N&D Co.](https://ndcompany.in), he explores how emerging technologies can help businesses scale faster with smarter workflows and operational efficiency.

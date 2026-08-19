@@ -15,11 +15,6 @@ image:
 
 In response to escalating tensions and emerging threats, India conducted a comprehensive civil defence mock drill, codenamed **Operation Abhyaas**, on **May 7, 2025**. This large-scale exercise spanned **244 districts** across the nation, aiming to bolster emergency preparedness and public awareness.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## Table of Contents
 
 - [Operation Abhyaas: India's Nationwide Civil Defence Mock Drill on May 7, 2025](#operation-abhyaas-indias-nationwide-civil-defence-mock-drill-on-may-7-2025)

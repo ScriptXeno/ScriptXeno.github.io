@@ -13,11 +13,6 @@ image:
 
 Navigating large codebases just got easier! Meet **Gitingest** — the open-source tool that transforms any GitHub repository into a clean, LLM-ready digest.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ---
 
 ## 💼 Personal Story

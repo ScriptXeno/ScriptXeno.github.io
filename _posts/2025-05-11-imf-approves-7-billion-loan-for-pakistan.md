@@ -15,11 +15,6 @@ image:
 
 The International Monetary Fund (IMF) has officially approved a fresh **$1.4 billion climate resilience loan** to Pakistan while simultaneously **releasing $1 billion in support** as part of an ongoing **$7 billion economic reform program**. This move comes amidst global financial uncertainty and heightened geopolitical tensions in South Asia.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## **Pakistan Secures New IMF Backing Amid Economic Recovery Efforts**
 
 On **May 9, 2025**, the IMF’s executive board gave a green light to the **first review** of the $7 billion bailout program with Pakistan. As a result, the country will immediately receive **$1 billion** in cash disbursements to support its economy and stability roadmap.

@@ -16,11 +16,6 @@ image:
 
 The launch of **Whoop 5.0** has stirred more frustration than fanfare, as customers expressed outrage over a muddled and inconsistent upgrade policy.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 Earlier this week, Whoop revealed its latest **fitness tracker model**, initially offering users two options: extend their subscription by **12 months** or pay a **one-time upgrade fee** — $49 for the standard version and $79 for the one with **EKG sensors**.
 
 This sparked immediate backlash from loyal members, especially since the company's long-standing promise was clear — **free hardware upgrades** for users with at least **six months of membership**. That’s been a major selling point for Whoop’s **premium-priced subscription model**, which ranges between **$199 and $359 annually**.

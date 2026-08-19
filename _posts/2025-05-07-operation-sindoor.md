@@ -16,11 +16,6 @@ image:
 
 India's military has launched **Operation Sindoor** — a series of precision strikes on terrorist camps across Pakistan and Pakistan-administered Kashmir. The operation is a direct response to the **Pahalgam terror attack**, where 25 Indian civilians and one Nepali tourist lost their lives.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 This post breaks down the operation's objective, execution, and implications for India-Pakistan relations and global geopolitics.
 
 ## Table of Contents

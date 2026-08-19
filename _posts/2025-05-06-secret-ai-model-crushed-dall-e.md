@@ -15,11 +15,6 @@ image:
 
 Meet **Recraft**, the stealthy AI powerhouse that’s redefining the future of visual design—quietly outclassing giants like DALL·E and Midjourney with its precision-driven, brand-focused model, *red\_panda*. Now backed by \$30 million in funding and led by visionary founder Anna Veronika Dorogush, Recraft is setting a new standard for AI-generated imagery, blending cutting-edge technology with real-world branding needs—making it the next big disruptor in the world of creative AI.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ---
 
 ## Table of Contents
@@ -106,12 +101,6 @@ What makes this story even more intriguing? Recraft is led by a solo female foun
 ### **The Benchmark That Turned Heads**
 
 In 2024, Recraft’s third-generation model—nicknamed **red\_panda**—smashed expectations by topping the Artificial Analysis benchmark. No one expected it to beat the likes of DALL·E or Midjourney, but it did—and decisively.
-
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 
 ### **“red\_panda” – The Model That Changed the Game**
 

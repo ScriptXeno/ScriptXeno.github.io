@@ -15,11 +15,6 @@ image:
 
 Imagine discovering the secret playbook behind every response an AI gives you. That's exactly what happened when a trove of **leaked system prompts** surfaced online in a GitHub repository run by a silent whistleblower. If you’ve ever used **Claude**, **ChatGPT**, **Perplexity**, or **Notion AI**, chances are you've unknowingly been talking to a bot obeying one of these hidden scripts.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 This leak isn't just a curiosity—it’s a bombshell. These system prompts are the **invisible brains behind large language models (LLMs)**, and now that they're out in the wild, everything from **AI safety** to **prompt injection vulnerabilities** is up for public scrutiny.
 
 Let’s unpack the gravity of this revelation and walk you through what these leaked files actually say—and what they mean for you.

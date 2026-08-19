@@ -16,11 +16,6 @@ image:
 
 Forget everything you thought you knew about timber. A material breakthrough from a Maryland lab is turning heads in the construction and climate tech industries—and it’s not science fiction anymore. It’s [**Superwood**](https://shrinkme.ink/wqLrYX), a next-generation wood that’s about to go commercial.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## **From Lab Discovery to Climate-Smart Innovation**
 
 In 2018, [**Liangbing Hu**](https://shrinkme.ink/nx6Lk8I7), a materials scientist at the **University of Maryland**, discovered how to enhance ordinary timber into a **super-strong, steel-beating material**. At first, it looked like another promising idea destined to stay in academia.

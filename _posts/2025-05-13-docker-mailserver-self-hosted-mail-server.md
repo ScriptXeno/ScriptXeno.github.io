@@ -16,11 +16,6 @@ image:
 
 Are you tired of relying on third-party email providers? Want full control of your mail environment without giving up convenience or security? You’re not alone.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 Welcome to the world of **docker-mailserver** – a powerful, production-ready mail server that works entirely in Docker, no rocket science required.
 
 ---

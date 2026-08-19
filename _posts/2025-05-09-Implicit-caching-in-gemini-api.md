@@ -14,7 +14,6 @@ image:
 
 ---
 
-
 # How Google’s Implicit Caching in Gemini API Slashes AI Costs by 75%
 
 As AI models grow in size and capability, so too do their operating costs—especially for developers tapping into them via APIs. In response, **Google has introduced a new feature called *implicit caching* in its Gemini API**, promising up to **75% cost savings** on repetitive context. This could be a major breakthrough for developers looking to harness powerful AI without draining their budgets.
@@ -51,11 +50,6 @@ Google’s **Gemini API** provides access to its most advanced generative AI mod
 
 - [**Gemini 2.5 Pro**](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/): High capability, detailed reasoning
 - [**Gemini 2.5 Flash**](https://cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-flash): Lighter, faster, cost-effective
-
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
 
 These models are now enhanced with a feature that could drastically change how developers think about API efficiency.
 

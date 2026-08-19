@@ -17,11 +17,6 @@ image:
 
 In a high-stakes clash of innovation and international policy, a headline-grabbing investment by Benchmark in Chinese AI startup Manus is now under scrutiny. At the heart of the issue is a complex mix of geopolitical tensions, venture capital ambition, and the ever-blurring lines between artificial intelligence development and national security.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## Table of Contents
 
 - [Benchmark’s Investment in Chinese AI Startup Manus Under U.S. Review](#benchmarks-investment-in-chinese-ai-startup-manus-under-us-review)

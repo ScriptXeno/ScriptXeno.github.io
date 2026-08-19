@@ -16,11 +16,6 @@ image:
 If you've ever scrolled through someone's profile and seen those cool little badges like “Pull Shark” or “Pair Extraordinaire,” you’ve probably wondered: How do I get those?
 Well, you're in luck. Today, we’re diving deep into a smart automation tool that helps you earn these GitHub badges without breaking a sweat.
 
-{%raw%}
-<script async="async" data-cfasync="false" src="https://pl26616663.profitableratecpm.com/93500646ba3c9ecea0b1bd094d136131/invoke.js"></script>
-<div id="container-93500646ba3c9ecea0b1bd094d136131"></div>
-{%endraw%}
-
 ## Table of Contents
 
 - [Achieve Pull Shark and Pair Extraordinaire Badge with Ease](#achieve-pull-shark-and-pair-extraordinaire-badge-with-ease)
@@ -341,7 +336,6 @@ Small change added to text.txt
  1 file changed, 1 insertion(+)
 
 https://github.com/your-username/your-repo-name/pull/25
-
 
 Your branch is up to date with 'origin/main'.
 
