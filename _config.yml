@@ -193,6 +193,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: pinterest-54db3.html # third-party verification file, not real content
+    values:
+      sitemap: false
 
 sass:
   style: compressed
