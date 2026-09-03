@@ -2,8 +2,9 @@
 
 A local MCP (Model Context Protocol) server that gives an AI agent (Claude Code, or any
 other MCP client) direct tools for running ScriptXeno's blog workflow: reading and writing
-posts, creating the per-post image-hosting repos the site uses, converting/uploading images,
-and generating new images with Gemini's image model ("nano banana").
+posts, creating the per-post image-hosting repos the site uses, converting/uploading/optimizing
+images, generating new images with Gemini's image model ("nano banana"), and notifying
+IndexNow once a post is live.
 
 It runs as a local Node process over stdio — the MCP client (Claude Code) spawns and manages
 it automatically per `.mcp.json` at the repo root. You never start it by hand.
@@ -142,6 +143,18 @@ Provide **either** `localPath` or `imageData` — not neither. Converts to PNG +
 the Claude Code conversation, the agent can pass its bytes straight through as `imageData`
 — no need to save it to disk or know a file path first.
 
+#### `convert_to_webp`
+| Input | Type | Notes |
+|---|---|---|
+| `localPath` | string | optional — absolute path to a source PNG/JPEG/etc. Output defaults to the same path with a `.webp` extension. |
+| `imageData` | string | optional — base64 source bytes. Takes precedence if both are given. Output defaults into `tools/blog-mcp/generated/`. |
+| `outputPath` | string | optional — override the output path entirely |
+| `quality` | number | default `82` |
+
+Standalone WebP conversion via `sharp` — no GitHub repo or upload involved, just a local file
+in, a local file out. Returns `{ outputPath, originalBytes, optimizedBytes, savedPercent }`.
+Use `upload_image` instead when the result also needs hosting on a post's image repo.
+
 #### `generate_image`
 | Input | Type | Notes |
 |---|---|---|
@@ -165,6 +178,20 @@ Runs `git add` / `commit` / `push` scoped to **only** that one post file via pat
 other pending changes in the working tree are left alone. This pushes straight to `main`,
 which triggers `pages-deploy.yml` and goes live. There is no undo tool; revert with
 `git revert <sha>` if needed (the returned `commitSha` is exactly what you'd revert).
+
+#### `submit_indexnow`
+| Input | Type | Notes |
+|---|---|---|
+| `urls` | string[] | required, 1–10,000 full URLs, all on `scriptxeno.github.io` |
+
+Notifies IndexNow (Bing and other participating engines) that the given URLs are new or
+changed, so they get crawled faster than waiting on organic discovery — a workaround for the
+low daily quota on Google's own manual "Request indexing" button (Google itself doesn't
+participate in IndexNow, so this doesn't help Google specifically). Host and key are hardcoded
+in `src/tools/indexnow.ts` to this site's own key file,
+`https://scriptxeno.github.io/8224327bc30e4fd28859be57075c7439.txt` — no credentials needed.
+Call it with the real post URL(s) right after `publish_post` once the page is confirmed live.
+Returns `{ submitted, status, ok }`.
 
 ## Design notes
 
@@ -277,3 +304,4 @@ repo-creation was indistinguishable from failure and got reported as an error.)
 | `generate_image` returns HTTP 429 with `limit: 0` | Free-tier quota for image models is zero regardless of model — billing must be enabled on the Gemini key's Google Cloud project |
 | `generate_image` throws "Could not locate image data" | The Interactions API's response shape has changed — the error includes the raw JSON; update `findImageData()` in `src/tools/generate_image.ts` with the real field path |
 | `publish_post` fails with "nothing to commit" | The post file's content is identical to what's already committed |
+| `submit_indexnow` returns a 422 | The URL doesn't actually resolve on `scriptxeno.github.io` yet — GitHub Pages needs a few seconds after `publish_post` before a brand-new URL is live; confirm with `curl` first, same as before publishing anywhere else |

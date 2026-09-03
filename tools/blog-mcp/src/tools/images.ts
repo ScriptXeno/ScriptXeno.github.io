@@ -1,9 +1,11 @@
 import fs from "node:fs";
+import path from "node:path";
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { createRepo, enablePages, getRepo, putFileContents } from "../lib/github.js";
 import { toPngBuffer, toTinyPlaceholderBuffer, toWebpBuffer } from "../lib/images.js";
 import { STATIC_LQIP } from "../lib/frontmatter.js";
+import { generatedDir } from "../lib/paths.js";
 
 function textResult(value: unknown) {
   return { content: [{ type: "text" as const, text: JSON.stringify(value, null, 2) }] };
@@ -116,6 +118,46 @@ export function registerImageTools(server: McpServer) {
         pngUrl: pagesUrlFor(repo, `${name}.png`),
         webpUrl: pagesUrlFor(repo, `${name}.webp`),
         lqip: STATIC_LQIP,
+      });
+    }
+  );
+
+  server.registerTool(
+    "convert_to_webp",
+    {
+      title: "Convert image to WebP",
+      description:
+        "Convert a local PNG/JPEG (or other sharp-supported format) to an optimized WebP file. Provide `localPath` (output defaults to the same file with a .webp extension) or `imageData` (base64 bytes — output goes to the generated/ staging folder). Returns the output path plus original/optimized byte sizes.",
+      inputSchema: {
+        localPath: z.string().optional().describe("Absolute local path to the source image."),
+        imageData: z.string().optional().describe("Base64-encoded source image bytes. Takes precedence over localPath if both are given."),
+        outputPath: z.string().optional().describe("Absolute path for the .webp output. Defaults next to localPath, or into generated/ for imageData."),
+        quality: z.number().int().min(1).max(100).default(82),
+      },
+    },
+    async ({ localPath, imageData, outputPath, quality }) => {
+      const resolved = resolveImageInput({ localPath, imageData });
+      if (!Buffer.isBuffer(resolved)) return errorResult(resolved.error);
+      const input = resolved;
+
+      let outPath = outputPath;
+      if (!outPath) {
+        if (localPath) {
+          outPath = localPath.replace(/\.[^./\\]+$/, "") + ".webp";
+        } else {
+          fs.mkdirSync(generatedDir, { recursive: true });
+          outPath = path.join(generatedDir, `${Date.now()}.webp`);
+        }
+      }
+
+      const webpBuffer = await toWebpBuffer(input, quality);
+      fs.writeFileSync(outPath, webpBuffer);
+
+      return textResult({
+        outputPath: outPath,
+        originalBytes: input.length,
+        optimizedBytes: webpBuffer.length,
+        savedPercent: Math.round((1 - webpBuffer.length / input.length) * 100),
       });
     }
   );

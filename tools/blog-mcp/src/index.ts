@@ -8,6 +8,7 @@ import { registerImageTools } from "./tools/images.js";
 import { registerGenerateImageTool } from "./tools/generate_image.js";
 import { registerPublishTool } from "./tools/publish.js";
 import { registerThumbnailTool } from "./tools/thumbnail.js";
+import { registerIndexNowTool } from "./tools/indexnow.js";
 
 dotenv.config({ path: path.join(repoRoot, "tools", "blog-mcp", ".env") });
 
@@ -18,6 +19,7 @@ registerImageTools(server);
 registerGenerateImageTool(server);
 registerPublishTool(server);
 registerThumbnailTool(server);
+registerIndexNowTool(server);
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
