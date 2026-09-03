@@ -50,6 +50,15 @@
 
   {{ seo_tags }}
 
+  {% if page.layout == 'tag' or page.layout == 'category' %}
+    {% if page.posts.size < 5 %}
+      <!-- Thin archive page (fewer than 5 posts) -- near-duplicate of the post(s) it lists,
+           excluded from indexing so it doesn't dilute the site's real content in search.
+           Still crawlable (follow) so link equity flows through to the posts themselves. -->
+      <meta name="robots" content="noindex, follow">
+    {% endif %}
+  {% endif %}
+
   {% if page.layout == 'post' %}
     <!-- BreadcrumbList JSON-LD, mirroring the visible Home > Post Title nav in topbar.html -->
     <script type="application/ld+json">
