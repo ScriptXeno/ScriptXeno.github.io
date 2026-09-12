@@ -9,6 +9,8 @@ image:
   path: https://scriptxeno.github.io/2026-06-17-claude-code-unlimited-opencode-zen/2026-06-17-claude-code-unlimited-opencode-zen.webp
   alt: Anthropic's Claude Max subscription costs around $200 per month, which puts advanced AI coding workflows out of reach for many developers.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+redirect_from:
+  - /posts/how-to-use-claude-code-unlimited-with-opencode-zen-free-alternative-to-claude-max/
 
 ---
 

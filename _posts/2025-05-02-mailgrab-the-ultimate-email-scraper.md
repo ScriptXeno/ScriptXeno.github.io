@@ -1,14 +1,14 @@
 ---
-title: "MailGrab – The Ultimate Email Scraper That Does It All"
-description: "MailGrab is an advanced Python-based email scraper that auto-discovers URLs, harvests bulk emails, and stores them automatically. Perfect for marketers, researchers, and developers."
+title: MailGrab – The Ultimate Email Scraper That Does It All
+description: "MailGrab is an advanced Python-based email scraper that auto-discovers URLs, harvests bulk emails, and stores them automatically. Now updated for v2.0.0: concurrent crawling, an MCP server for AI agents, and more."
 author: oceanofanything
-date: 2025-05-02 10:00:00
+date: 2025-05-02
 categories: [automation, email-scraping]
 tags: [email-scraper, automation, python, web-crawler, marketing, data-collection, lead-generation, mailgrab, email-harvesting, contact-extraction]
 image:
   path: https://oceanofanything.github.io/MailGrab/MailGrab.png
-  lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
   alt: MailGrab Email Scraper Banner
+  lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---
 # MailGrab – The Ultimate Email Scraper That Does It All
 
@@ -17,6 +17,7 @@ image:
 - [MailGrab – The Ultimate Email Scraper That Does It All](#mailgrab--the-ultimate-email-scraper-that-does-it-all)
   - [Table of Contents](#table-of-contents)
   - [What is MailGrab?](#what-is-mailgrab)
+  - [What's New in MailGrab v2.0.0](#whats-new-in-mailgrab-v200)
   - [Why Email Scraping Matters Today](#why-email-scraping-matters-today)
   - [Key Features of MailGrab](#key-features-of-mailgrab)
     - [Auto URL Discovery](#auto-url-discovery)
@@ -38,6 +39,7 @@ image:
   - [Security and Privacy Considerations](#security-and-privacy-considerations)
   - [Tips to Maximize Your Scraping Results](#tips-to-maximize-your-scraping-results)
   - [MailGrab in Action – Real-World Use Cases](#mailgrab-in-action--real-world-use-cases)
+  - [MailGrab Alternatives](#mailgrab-alternatives)
   - [Conclusion](#conclusion)
   - [Frequently Asked Questions](#frequently-asked-questions)
 
@@ -46,6 +48,14 @@ image:
 ## What is MailGrab?
 
 Have you ever needed to collect a bunch of email addresses from websites but didn't want to manually copy and paste them one by one? Enter **MailGrab**, your new best friend in web scraping! Built using Python, MailGrab is a powerful, multi-platform tool that automatically finds and extracts email addresses from a list of URLs—and even digs into sub-URLs to make sure nothing's missed.
+
+---
+
+## What's New in MailGrab v2.0.0
+
+I shipped MailGrab v2.0.0 on September 3, 2026, and it's a bigger update than a quick note here can do justice to: concurrent crawling, robots.txt compliance by default, email de-obfuscation, structured CSV/JSON output, and an MCP server that lets AI coding agents like Claude Code, Cursor, and GitHub Copilot crawl a site and pull emails directly instead of you shelling out to the CLI by hand.
+
+I wrote up the full technical rundown separately, including why the MCP server runs each call in its own isolated subprocess and what changed under the hood for crawling and correctness, in [a dedicated v2.0.0 post](https://scriptxeno.github.io/posts/mailgrab-v2-mcp-server-ai-coding-agents/).
 
 ---
 
@@ -63,7 +73,7 @@ MailGrab will crawl through sub-URLs too! If the main page links to blog posts o
 
 ### Bulk Email Harvesting
 
-Give it a huge list of URLs—it'll handle them all without throttling.
+Give it a huge list of URLs and it works through all of them, using the concurrency and rate-limit settings described above so a large list doesn't overwhelm a target site.
 
 ### Automatic Data Storage
 
@@ -205,6 +215,14 @@ MailGrab is open-source and runs locally. No data is sent anywhere. You're in co
 - Students extracting faculty contacts
 - Researchers building databases
 - Startups building contact networks
+
+---
+
+## MailGrab Alternatives
+
+MailGrab isn't the only open-source email scraper worth knowing about. theHarvester is a longer-established OSINT tool that pulls emails alongside subdomains and hostnames from public sources, with a much bigger security-community track record behind it. EmailHarvester takes a narrower, search-engine-only approach to one domain at a time. GHunt is a different tool altogether, built for OSINT on Google accounts rather than general web crawling.
+
+For a fuller comparison, including how each one stacks up and who it actually fits, see [our roundup of the best email scraper projects on GitHub](https://scriptxeno.github.io/posts/best-email-scraper-projects-github/).
 
 ---
 

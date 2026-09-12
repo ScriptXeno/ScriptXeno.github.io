@@ -28,7 +28,7 @@ Below are five actively maintained open-source projects worth considering, check
 
 ### phpList
 
-phpList is one of the oldest tools in this space, now on version 3. It has 870 GitHub stars, 289 forks, and just under 4,000 commits, and it's licensed under AGPLv3. phpList has long advertised translation into around 20 languages, though its current Weblate localization project shows broader coverage today (roughly 54). According to phpList's own materials, it has been used to send more than 25 billion campaign emails across 95 countries.
+phpList is one of the oldest tools in this space, now on version 3. It has 870 GitHub stars, 289 forks, and just under 4,000 commits, and it's licensed under AGPLv3. phpList has long advertised translation into around 20 languages, though its current Weblate localization project shows broader coverage today (roughly 54). phpList's own materials cite a figure of more than 25 billion campaign emails sent across 95 countries, but that number is dated to 2018 in the same materials, not a current count, so treat it as a sign of long-term scale rather than an up-to-date usage statistic.
 
 The feature set covers a web UI plus a command-line interface, load balancing and throttling across campaigns, scheduled sends, CSV/Excel import and export, custom HTML templates, attachments, and bounce processing. If you'd rather not self-host, phpList also sells a hosted version at phplist.com.
 
@@ -60,14 +60,29 @@ listmonk is a self-hosted newsletter and transactional-email system written in G
 
 Best for: anyone who needs both newsletters and transactional email, like signup confirmations or alerts, from one system, and doesn't mind that it's a single Go binary rather than a PHP app.
 
-## Truly free vs. free-tier-limited: what "free" actually means here
+## Truly free vs. free-tier-limited: is each tool actually free?
 
-If you're comparing these against SaaS "free plans," it's worth being specific about what actually changes:
+Yes, for the software itself. All five projects here are free to download and run, and none of them cap how many emails you can send in the code. The one thing worth knowing before you pick one: phpList also sells a separate hosted product that works like a normal SaaS free tier, gates and all. That's a different product from the free self-hosted software, and the distinction matters enough to walk through directly.
 
-* A SaaS free tier caps your subscriber count or monthly sends, then charges once you cross that line. None of the five tools above cap anything in the software itself. The only ceiling is what your own server and SMTP setup can handle.
-* Licensing differs in a way that matters if you ever plan to offer the tool as a hosted service to other people: phpList, BillionMail, and listmonk are AGPLv3, which requires releasing your source changes if you offer a modified version over a network to other users. Bulk-Email-Sender and web-bulk-email-sender are MIT-licensed, with no such requirement.
+Checked against each project's own repository and site in September 2026:
+
+| Tool | License | Self-hosted cost | Paid or hosted upsell | Sending cap in the software |
+|---|---|---|---|---|
+| phpList | AGPLv3 | Free | phpList Ltd. also runs a hosted SaaS at phplist.com. Its own free ("Forever Free") plan there withholds scheduling and repeat sending, message analytics, attachments, and multiple user accounts, and keeps "Powered by phpList" branding on outgoing mail, all features the self-hosted download includes for free | None |
+| BillionMail | AGPLv3 | Free | None found in the project's repository or site | None. "Unlimited sending" is a marketing claim; real throughput depends on your server and SMTP relay, same as any tool on this list |
+| Bulk-Email-Sender (Laravel) | MIT | Free | None found | None on sending. A 10,000-contact limit applies only to selecting "all filtered" contacts at once in the admin UI, not to how many emails go out |
+| web-bulk-email-sender (Flask) | MIT | Free | None found | None |
+| listmonk | AGPLv3 | Free | None from the project itself. Some third-party companies host listmonk for a fee, which is a hosting service, not a feature the project gates | None. Rate limiting is a setting you configure, not a ceiling the software imposes |
+
+phpList needs the longer explanation, since it's the one most likely to confuse anyone comparing "free" options here. Self-host phpList (the phplist3 code on GitHub, AGPLv3) and its own README confirms attachments, scheduling, pause/resume/repeat sends, and real-time analytics are all included, with no restriction. phpList Ltd. separately runs phplist.com, a hosted version of similar software, and that hosted product's Forever Free plan does not include those same features: scheduling and repeat sending, detailed message analytics, attachments, and multiple user accounts are listed on phplist.com's own pricing page as paid-tier features, and the free hosted plan carries "Powered by phpList" branding that paid plans remove. The gate is real. It's just on phpList's commercial hosted product, not on the free software you'd actually install on your own server.
+
+The other four don't have an equivalent. BillionMail, Bulk-Email-Sender, web-bulk-email-sender, and listmonk each ship as a single thing: the open-source project, with no companion commercial tier withholding a feature the free version also has.
+
+A few more differences worth being exact about:
+
+* Licensing matters if you'd ever run one of these as a service for other people. phpList, BillionMail, and listmonk are AGPLv3, which requires releasing your source changes if you offer a modified version over a network to other users. Bulk-Email-Sender and web-bulk-email-sender are MIT-licensed, with no such requirement.
 * "Free" doesn't mean zero cost. You still need a server, a domain with correct DKIM, SPF, and DMARC records, and either your own SMTP relay or a transactional-email provider's API. None of that is included, and none of it is optional if you want mail landing in inboxes instead of spam folders.
-* If open source itself is the point, not just avoiding a bill, BillionMail, phpList, and listmonk are the more actively maintained options right now based on GitHub stars and commit history. The two smaller PHP and Flask tools are fine for lighter use but have far less community behind them.
+* Community size differs sharply. BillionMail, phpList, and listmonk have far larger GitHub followings and commit histories than the other two. Bulk-Email-Sender and web-bulk-email-sender are smaller, less-tested projects, worth knowing if something breaks and you need to find a fix yourself rather than ask a maintainer.
 
 ## How to choose what's right for you
 
@@ -95,8 +110,9 @@ Marketing agencies managing multiple clients, in-house teams that don't want to 
 
 ## References
 
-* [phpList / phplist3](https://github.com/phpList/phplist3) — GitHub
-* [aaPanel/BillionMail](https://github.com/aaPanel/BillionMail) — GitHub
-* [arafat-web/Bulk-Email-Sender](https://github.com/arafat-web/Bulk-Email-Sender) — GitHub
-* [SupratimRK/web-bulk-email-sender](https://github.com/SupratimRK/web-bulk-email-sender) — GitHub
-* [listmonk](https://listmonk.app/) — project site
+* [phpList / phplist3](https://github.com/phpList/phplist3) (GitHub)
+* [phpList pricing](https://www.phplist.com/pricing) (phplist.com hosted plan and feature comparison)
+* [aaPanel/BillionMail](https://github.com/aaPanel/BillionMail) (GitHub)
+* [arafat-web/Bulk-Email-Sender](https://github.com/arafat-web/Bulk-Email-Sender) (GitHub)
+* [SupratimRK/web-bulk-email-sender](https://github.com/SupratimRK/web-bulk-email-sender) (GitHub)
+* [listmonk](https://listmonk.app/) (project site)
