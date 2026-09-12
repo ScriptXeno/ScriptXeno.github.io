@@ -3,8 +3,9 @@
 A local MCP (Model Context Protocol) server that gives an AI agent (Claude Code, or any
 other MCP client) direct tools for running ScriptXeno's blog workflow: reading and writing
 posts, creating the per-post image-hosting repos the site uses, converting/uploading/optimizing
-images, generating new images with Gemini's image model ("nano banana"), and notifying
-IndexNow once a post is live.
+images, generating new thumbnails (default: the N&D Co. Image API on Cloudflare Workers AI;
+Gemini's "nano banana" is available as an alternate provider), and notifying IndexNow once a
+post is live.
 
 It runs as a local Node process over stdio — the MCP client (Claude Code) spawns and manages
 it automatically per `.mcp.json` at the repo root. You never start it by hand.
@@ -24,10 +25,12 @@ it automatically per `.mcp.json` at the repo root. You never start it by hand.
 
    | Variable | Needed by | How to get it |
    |---|---|---|
-   | `GEMINI_API_KEY` | `generate_image` | Google AI Studio (aistudio.google.com). Image generation requires **billing enabled** on the associated Google Cloud project — the free tier allocates zero quota for image models, confirmed live (HTTP 429, `limit: 0`) regardless of which image model is used. |
+   | `CLOUDFLARE_SERVICE_WORKER_API_ENDPOINT` | `generate_image` (default provider) | The deployed N&D Co. Image API Worker URL. |
+   | `CLOUDFLARE_IMAGE_GENERATION_API_KEY` | `generate_image` (default provider) | API key for that Worker. Free tier: 10,000 Neurons/day, resets 00:00 UTC — see [Thumbnail model selection](#thumbnail-model-selection-nd-co-image-api). |
    | `SCRIPTXENO_GITHUB_TOKEN` | `create_image_repo`, `upload_image` | A token from the **ScriptXeno** GitHub account itself — see [Why a separate GitHub token](#why-a-separate-github-token-for-image-repos) below. |
    | `GITHUB_OWNER` | image tools | Defaults to `ScriptXeno`; only change this if the blog ever moves accounts. |
-   | `NANOBANANA_MODEL` | `generate_image` | Defaults to `gemini-3.1-flash-image`. Override if Google renames/replaces the model again. |
+   | `GEMINI_API_KEY` | `generate_image` (`provider: "gemini"`) | Google AI Studio (aistudio.google.com). Currently **blocked on billing** — the free tier allocates zero quota for image models, confirmed live (HTTP 429, `limit: 0`) regardless of which image model is used. Kept as an alternate provider for when that's resolved. |
+   | `NANOBANANA_MODEL` | `generate_image` (`provider: "gemini"`) | Defaults to `gemini-3.1-flash-image`. Override if Google renames/replaces the model again. |
 
 3. **Register with Claude Code** — already done via `.mcp.json` at the repo root:
    ```json
@@ -159,11 +162,18 @@ Use `upload_image` instead when the result also needs hosting on a post's image 
 | Input | Type | Notes |
 |---|---|---|
 | `prompt` | string | required |
-| `aspectRatio` | string | optional, e.g. `"16:9"`, `"1:1"` |
+| `provider` | string | default `"cloudflare"`; pass `"gemini"` for nano-banana instead |
+| `model` | string | cloudflare only — overrides the default (`@cf/black-forest-labs/flux-2-klein-4b`); verified against the live `/models` list before use |
+| `width` / `height` | number | cloudflare only — default `1920` / `1072`, see [Thumbnail model selection](#thumbnail-model-selection-nd-co-image-api) for why 1072 and not 1080 |
+| `seed` / `guidance` / `negativePrompt` | number / number / string | cloudflare only, all optional |
+| `aspectRatio` | string | gemini only, e.g. `"16:9"`, `"1:1"` |
 
-Calls Gemini's Interactions API and saves the result to `tools/blog-mcp/generated/`
-(gitignored) as `<timestamp>.<ext>` — **does not auto-upload**. Review the file, then pass its
-`localPath` to `upload_image`. Requires `GEMINI_API_KEY` **with billing enabled** — see the
+Saves the result to `tools/blog-mcp/generated/` (gitignored) as `<timestamp>.<ext>` — **does
+not auto-upload**. Review the file, then pass its `localPath` to `upload_image`. The default
+(`cloudflare`) provider needs `CLOUDFLARE_SERVICE_WORKER_API_ENDPOINT` +
+`CLOUDFLARE_IMAGE_GENERATION_API_KEY`; on its free plan a `429` means the 10,000
+Neuron/day quota is exhausted until 00:00 UTC — the tool surfaces this clearly and does not
+retry. `provider: "gemini"` needs `GEMINI_API_KEY` **with billing enabled** — see the
 [Setup](#setup) table.
 
 ### Publishing
@@ -194,6 +204,45 @@ Call it with the real post URL(s) right after `publish_post` once the page is co
 Returns `{ submitted, status, ok }`.
 
 ## Design notes
+
+### Thumbnail model selection (N&D Co. Image API)
+
+`generate_image` defaults to the N&D Co. Image API (a Cloudflare Worker in front of Workers
+AI) rather than Gemini, because it actually works today — Gemini/nano-banana is blocked on
+billing (see Known limitations) — and gives real width/height control, which the site's 16:9
+thumbnail convention needs. The default model, `@cf/black-forest-labs/flux-2-klein-4b`, was
+picked via a live side-by-side trial (2026-09-12) rather than guessed:
+
+The Worker's live `/models` endpoint listed 5 models; `@cf/black-forest-labs/flux-1-schnell`
+was excluded immediately since it doesn't support `width`/`height` at all, and hitting the
+site's exact aspect ratio matters more than anything else here. The remaining 4 were each
+generated once, at `1920x1080`, from the exact `THUMBNAIL_HOUSE_STYLE` prompt:
+
+| Model | Result |
+|---|---|
+| Leonardo Phoenix 1.0 | Rendered the requested headline as garbled, misspelled text — unusable. |
+| Leonardo Lucid Origin | Rendered the correct headline, but in white instead of the required sky-blue, plus a hallucinated extra line of yellow text that wasn't in the prompt. |
+| FLUX.2 Dev | Timed out (HTTP 408) at 30 steps against the Worker's request timeout — unreliable for a synchronous tool call, independent of output quality. |
+| **FLUX.2 Klein 4B** | Got the headline text, its color, and the flat vector/line-art style all correct — the only one that did. |
+
+Klein 4B wasn't perfect either: it silently snapped a requested height of `1080` down to
+`1072` (the nearest multiple of 16) instead of matching exactly, and it drew a small
+watermark-like logo in the bottom-right corner — traced to the prompt itself asking to leave
+that corner quiet "for a small logo mark to be placed afterward"; the model drew the mark
+instead of leaving space for one. Both are fixed at the source: `DEFAULT_HEIGHT` in
+`src/lib/ndimage.ts` is set to `1072` (what this model actually delivers, not a value it
+silently rounds), and `THUMBNAIL_HOUSE_STYLE` (`src/lib/thumbnailStyle.ts`) was reworded to
+drop the word "logo" and the shouty all-caps "HOUSE STYLE" section header that Lucid Origin
+appeared to be echoing onto the image as text. That reworded prompt could not be re-tested
+live before the day's 10,000-Neuron free quota ran out — treat it as a reasoned fix, not a
+re-verified one, and look closely at the next few real `generate_image` outputs.
+
+`generate_image` still saves to a local staging folder for review rather than auto-uploading
+specifically because of failure modes like these — always look at the image before
+`upload_image`. If a future model swap or Worker update needs re-testing, reuse this same
+method: pull the live `/models` list, generate one sample per width/height-capable candidate
+at the target resolution with the real house-style prompt, and compare by eye rather than
+assuming the docs' example model list or a model's marketing description.
 
 ### Thumbnail house style
 
@@ -274,7 +323,17 @@ repo-creation was indistinguishable from failure and got reported as an error.)
 
 ## Known limitations
 
-- **`generate_image`'s exact response shape is defensive, not guaranteed.** Gemini's
+- **The reworded `THUMBNAIL_HOUSE_STYLE` (dropping "logo" and the all-caps section header,
+  see [Thumbnail model selection](#thumbnail-model-selection-nd-co-image-api)) has not been
+  re-verified live** — the day's free Neuron quota ran out mid-trial. It's a reasoned fix
+  based on what the unmodified prompt visibly did, not a confirmed one; watch the next few
+  real thumbnail generations for a recurring watermark or stray text.
+- **Cloudflare free-plan quota is shared across all callers of that Worker**, not scoped
+  per-project — 10,000 Neurons/day, resets 00:00 UTC. A single `1920x1072` generation on a
+  quality-focused model (Phoenix, Lucid Origin) can use a meaningful chunk of it; the default
+  Klein 4B is comparatively cheap (fixed at 4 steps). `generateNdImage()` surfaces a `429`
+  clearly and does not retry — if generation is unavailable, that's almost certainly why.
+- **`generate_image`'s Gemini response-shape parsing is defensive, not guaranteed.** Gemini's
   Interactions API is new enough that its documentation doesn't fully pin down the nested
   field name for image bytes in the response. `findImageData()` walks the response tree
   looking for a long base64-looking `data` field rather than assuming one exact path. If a

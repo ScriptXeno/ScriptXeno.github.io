@@ -3,6 +3,7 @@ import path from "node:path";
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { generatedDir } from "../lib/paths.js";
+import { DEFAULT_HEIGHT, DEFAULT_MODEL, DEFAULT_WIDTH, generateNdImage } from "../lib/ndimage.js";
 
 function textResult(value: unknown) {
   return { content: [{ type: "text" as const, text: JSON.stringify(value, null, 2) }] };
@@ -94,20 +95,52 @@ export function registerGenerateImageTool(server: McpServer) {
     {
       title: "Generate image",
       description:
-        "Generate an image from a text prompt using Gemini's image model (nano banana). Saves the result to a local staging folder for review — it is NOT uploaded automatically; use upload_image afterward once you've looked at it.",
+        "Generate an image from a text prompt. Defaults to the N&D Co. Image API (Cloudflare Workers AI, model " +
+        DEFAULT_MODEL +
+        ` at ${DEFAULT_WIDTH}x${DEFAULT_HEIGHT}) — picked via a live side-by-side trial as the model that actually renders the requested headline text in the right color and style; see width/height/model to override. Free-tier quota is 10,000 Neurons/day (resets 00:00 UTC) — a 429 means it's exhausted for today, do not retry. Pass provider: "gemini" to use nano-banana instead (currently blocked on Gemini Cloud billing). Saves the result to a local staging folder for review — it is NOT uploaded automatically; look at it, then use upload_image.`,
       inputSchema: {
         prompt: z.string(),
-        aspectRatio: z.string().optional().describe('e.g. "16:9", "1:1"'),
+        provider: z.enum(["cloudflare", "gemini"]).default("cloudflare"),
+        model: z.string().optional().describe("cloudflare only — overrides the default model. Verified against the live /models list before use."),
+        width: z.number().int().optional().describe(`cloudflare only, defaults to ${DEFAULT_WIDTH}`),
+        height: z.number().int().optional().describe(`cloudflare only, defaults to ${DEFAULT_HEIGHT}`),
+        seed: z.number().int().optional().describe("cloudflare only"),
+        guidance: z.number().optional().describe("cloudflare only"),
+        negativePrompt: z.string().optional().describe("cloudflare only"),
+        aspectRatio: z.string().optional().describe('gemini only, e.g. "16:9", "1:1"'),
       },
     },
-    async ({ prompt, aspectRatio }) => {
+    async ({ prompt, provider, model, width, height, seed, guidance, negativePrompt, aspectRatio }) => {
       try {
-        const { buffer, mimeType } = await callNanoBanana(prompt, { aspectRatio });
         fs.mkdirSync(generatedDir, { recursive: true });
-        const filename = `${Date.now()}.${extFromMime(mimeType)}`;
+
+        if (provider === "gemini") {
+          const { buffer, mimeType } = await callNanoBanana(prompt, { aspectRatio });
+          const filename = `${Date.now()}.${extFromMime(mimeType)}`;
+          const outPath = path.join(generatedDir, filename);
+          fs.writeFileSync(outPath, buffer);
+          return textResult({ localPath: outPath, mimeType, provider: "gemini" });
+        }
+
+        const { buffer, contentType, model: usedModel } = await generateNdImage(prompt, {
+          model,
+          width: width ?? DEFAULT_WIDTH,
+          height: height ?? DEFAULT_HEIGHT,
+          seed,
+          guidance,
+          negativePrompt,
+        });
+        const filename = `${Date.now()}.${extFromMime(contentType)}`;
         const outPath = path.join(generatedDir, filename);
         fs.writeFileSync(outPath, buffer);
-        return textResult({ localPath: outPath, mimeType });
+        return textResult({
+          localPath: outPath,
+          mimeType: contentType,
+          provider: "cloudflare",
+          model: usedModel,
+          width: width ?? DEFAULT_WIDTH,
+          height: height ?? DEFAULT_HEIGHT,
+        });
       } catch (err) {
         return errorResult(err instanceof Error ? err.message : String(err));
       }
