@@ -19,16 +19,16 @@ image:
   - [What is MailGrab?](#what-is-mailgrab)
   - [Why Email Scraping Matters Today](#why-email-scraping-matters-today)
   - [Key Features of MailGrab](#key-features-of-mailgrab)
-    - [✅ Auto URL Discovery](#-auto-url-discovery)
-    - [📩 Bulk Email Harvesting](#-bulk-email-harvesting)
-    - [💾 Automatic Data Storage](#-automatic-data-storage)
+    - [Auto URL Discovery](#auto-url-discovery)
+    - [Bulk Email Harvesting](#bulk-email-harvesting)
+    - [Automatic Data Storage](#automatic-data-storage)
   - [Who Can Benefit from MailGrab?](#who-can-benefit-from-mailgrab)
   - [Supported Platforms](#supported-platforms)
   - [Requirements Before Installation](#requirements-before-installation)
   - [How to Install MailGrab](#how-to-install-mailgrab)
-    - [🪟 Windows](#-windows)
-    - [🐧 Linux](#-linux)
-    - [🍏 macOS](#-macos)
+    - [Windows](#windows)
+    - [Linux](#linux)
+    - [macOS](#macos)
   - [Step-by-Step Python 3.9 Setup for Beginners](#step-by-step-python-39-setup-for-beginners)
     - [macOS](#macos)
     - [Ubuntu/Linux](#ubuntulinux)
@@ -45,27 +45,27 @@ image:
 
 ## What is MailGrab?
 
-Have you ever needed to collect a bunch of email addresses from websites but didn’t want to manually copy and paste them one by one? Enter **MailGrab**, your new best friend in web scraping! Built using Python, MailGrab is a powerful, multi-platform tool that automatically finds and extracts email addresses from a list of URLs—and even digs into sub-URLs to make sure nothing’s missed.
+Have you ever needed to collect a bunch of email addresses from websites but didn't want to manually copy and paste them one by one? Enter **MailGrab**, your new best friend in web scraping! Built using Python, MailGrab is a powerful, multi-platform tool that automatically finds and extracts email addresses from a list of URLs—and even digs into sub-URLs to make sure nothing's missed.
 
 ---
 
 ## Why Email Scraping Matters Today
 
-Emails are digital currency. Whether you’re doing outreach, lead generation, market research, or building contact lists, having access to the right emails is crucial. **MailGrab** makes the process fast, automatic, and efficient.
+Emails are digital currency. Whether you're doing outreach, lead generation, market research, or building contact lists, having access to the right emails is crucial. **MailGrab** makes the process fast, automatic, and efficient.
 
 ---
 
 ## Key Features of MailGrab
 
-### ✅ Auto URL Discovery
+### Auto URL Discovery
 
 MailGrab will crawl through sub-URLs too! If the main page links to blog posts or product pages, it digs in.
 
-### 📩 Bulk Email Harvesting
+### Bulk Email Harvesting
 
-Give it a huge list of URLs—it’ll handle them all without throttling.
+Give it a huge list of URLs—it'll handle them all without throttling.
 
-### 💾 Automatic Data Storage
+### Automatic Data Storage
 
 Results are stored in:
 
@@ -88,9 +88,9 @@ Results are stored in:
 
 MailGrab runs on:
 
-- ✅ Windows  
-- ✅ Linux  
-- ✅ macOS
+- Windows  
+- Linux  
+- macOS
 
 ---
 
@@ -109,7 +109,7 @@ git clone https://github.com/oceanofanything/MailGrab
 cd MailGrab
 ````
 
-### 🪟 Windows
+### Windows
 
 ```bash
 install.bat
@@ -121,13 +121,13 @@ Or manually:
 python -u install.py
 ```
 
-### 🐧 Linux
+### Linux
 
 ```bash
 sudo python -u install.py
 ```
 
-### 🍏 macOS
+### macOS
 
 1. Download Python 3.9: [Python 3.9 Download](https://www.python.org/downloads/release/python-390/)
 2. Install it
@@ -182,24 +182,11 @@ MailGrab:
 
 Scraping public data is legal in most cases—but **how you use** that data must comply with laws like **GDPR** and **CAN-SPAM**.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ---
 
 ## Security and Privacy Considerations
 
-MailGrab is open-source and runs locally. No data is sent anywhere. You’re in control.
+MailGrab is open-source and runs locally. No data is sent anywhere. You're in control.
 
 ---
 
@@ -214,29 +201,29 @@ MailGrab is open-source and runs locally. No data is sent anywhere. You’re in 
 
 ## MailGrab in Action – Real-World Use Cases
 
-- 💼 Marketers scraping leads
-- 🎓 Students extracting faculty contacts
-- 🧪 Researchers building databases
-- 🏢 Startups building contact networks
+- Marketers scraping leads
+- Students extracting faculty contacts
+- Researchers building databases
+- Startups building contact networks
 
 ---
 
 ## Conclusion
 
-If you're tired of the manual grind of email collection, MailGrab is your shortcut to automation. Whether you’re doing research, marketing, or development, MailGrab’s ease of use and power make it a must-have.
+If you're tired of the manual grind of email collection, MailGrab is your shortcut to automation. Whether you're doing research, marketing, or development, MailGrab's ease of use and power make it a must-have.
 
 ---
 
 ## Frequently Asked Questions
 
 **Q1: Can MailGrab extract emails from PDFs or docs?**
-No. It’s only for web pages.
+No. It's only for web pages.
 
-**Q2: What’s the max number of URLs?**
+**Q2: What's the max number of URLs?**
 No fixed limit. Break large lists into chunks for best results.
 
 **Q3: Is MailGrab safe?**
-Yes. It runs locally and doesn’t share your data.
+Yes. It runs locally and doesn't share your data.
 
 **Q4: Mobile support?**
 Not at this time.
