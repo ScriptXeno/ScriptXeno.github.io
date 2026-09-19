@@ -7,6 +7,7 @@ categories: [AI Agents, AI, Self-Hosting]
 tags: [PicoClaw, OpenClaw, hardware upgrade, Energy-Efficient Hardware, ai agents, Open Source AI Agent, agentic ai, linux server]
 image:
   path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-picoclaw-vs-openclaw-raspberry-pi-hardware-images@main/2026-08-19-picoclaw-vs-openclaw-raspberry-pi-hardware.webp
+  path_sm: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-picoclaw-vs-openclaw-raspberry-pi-hardware-images@main/thumb-800w.webp
   alt: Hardware cost comparison graphic for PicoClaw versus OpenClaw on a Raspberry Pi
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

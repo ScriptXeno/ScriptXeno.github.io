@@ -7,6 +7,7 @@ categories: [AI Agents, Artificial Intelligence, cybersecurity]
 tags: [OpenClaw, cybersecurity, AI safety, AI risk, ai agents, agentic ai, AI incidents]
 image:
   path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-openclaw-2026-8-1-security-update-images@main/2026-08-19-openclaw-2026-8-1-security-update.webp
+  path_sm: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-openclaw-2026-8-1-security-update-images@main/thumb-800w.webp
   alt: Three security checklist tiles showing two fixes checked and the ClawHub skill problem left open
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

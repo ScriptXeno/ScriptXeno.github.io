@@ -7,6 +7,7 @@ categories: [AI Tools, email-scraping]
 tags: [mailgrab, MCP, ai coding tools, email-scraper, email-harvesting, web-crawler, python, automation, open-source]
 image:
   path: https://cdn.jsdelivr.net/gh/ScriptXeno/mailgrab-v2-mcp-server-ai-coding-agents-images@main/mailgrab-v2-mcp-server-ai-coding-agents.webp
+  path_sm: https://cdn.jsdelivr.net/gh/ScriptXeno/mailgrab-v2-mcp-server-ai-coding-agents-images@main/thumb-800w.webp
   alt: MailGrab's concurrent crawler connecting multiple websites through a central node to an AI coding agent
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

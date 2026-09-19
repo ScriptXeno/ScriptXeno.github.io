@@ -84,11 +84,12 @@
                 {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
               {% endunless %}
               {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
+              {% assign thumb = post.image.path_sm | default: src %}
               <div class="preview-img{% if post.image.lqip %} blur{% else %} shimmer{% endif %}">
                 {% if post.image.lqip %}
-                  <img data-src="{{ src }}" data-lqip="true" src="{{ post.image.lqip }}" alt="{{ alt }}">
+                  <img data-src="{{ thumb }}" data-lqip="true" src="{{ post.image.lqip }}" alt="{{ alt }}">
                 {% else %}
-                  <img src="{{ src }}" alt="{{ alt }}" loading="lazy">
+                  <img src="{{ thumb }}" alt="{{ alt }}" loading="lazy">
                 {% endif %}
               </div>
             {% endif %}

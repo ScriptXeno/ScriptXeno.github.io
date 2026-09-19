@@ -3,7 +3,7 @@ import path from "node:path";
 import { z } from "zod";
 import type { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { createRepo, enablePages, getRepo, putFileContents } from "../lib/github.js";
-import { toPngBuffer, toTinyPlaceholderBuffer, toWebpBuffer } from "../lib/images.js";
+import { toPngBuffer, toResizedWebpBuffer, toTinyPlaceholderBuffer, toWebpBuffer } from "../lib/images.js";
 import { STATIC_LQIP } from "../lib/frontmatter.js";
 import { generatedDir } from "../lib/paths.js";
 
@@ -104,9 +104,15 @@ export function registerImageTools(server: McpServer) {
           .optional()
           .describe("Filename base (no extension). Defaults to the repo name with any -images suffix stripped."),
         includeTinyPlaceholder: z.boolean().default(true),
+        includeSmallVariant: z
+          .boolean()
+          .default(true)
+          .describe(
+            "Also generate and upload an 800px-wide <basename>-sm.webp thumbnail, returned as webpUrlSmall. Use it as a post's image.path_sm so homepage/related-post cards (~400px wide) don't download the full-size image."
+          ),
       },
     },
-    async ({ repo, localPath, imageData, baseName, includeTinyPlaceholder }) => {
+    async ({ repo, localPath, imageData, baseName, includeTinyPlaceholder, includeSmallVariant }) => {
       const resolved = resolveImageInput({ localPath, imageData });
       if (!Buffer.isBuffer(resolved)) return errorResult(resolved.error);
       const input = resolved;
@@ -122,12 +128,54 @@ export function registerImageTools(server: McpServer) {
         await putFileContents(acct, repo, "lqip.webp", tiny, "Add lqip.webp");
       }
 
+      let webpUrlSmall: string | undefined;
+      if (includeSmallVariant) {
+        const small = await toResizedWebpBuffer(input, 800);
+        await putFileContents(acct, repo, `${name}-sm.webp`, small, `Add ${name}-sm.webp`);
+        webpUrlSmall = jsdelivrUrlFor(repo, `${name}-sm.webp`);
+      }
+
       return textResult({
         pngUrl: jsdelivrUrlFor(repo, `${name}.png`),
         webpUrl: jsdelivrUrlFor(repo, `${name}.webp`),
+        webpUrlSmall,
         pagesUrl: pagesUrlFor(repo, `${name}.webp`),
         lqip: STATIC_LQIP,
       });
+    }
+  );
+
+  server.registerTool(
+    "upload_image_thumbnail",
+    {
+      title: "Upload a resized thumbnail variant",
+      description:
+        "Generate an 800px-wide WebP thumbnail from a source image and upload it to an EXISTING image repo, without touching that repo's full-size files. Use this to backfill `image.path_sm` on a post whose full-size image was already uploaded via upload_image before the small-variant feature existed.",
+      inputSchema: {
+        repo: z.string().describe("Existing repo name, e.g. 2026-08-19-my-post-images"),
+        localPath: z.string().optional().describe("Absolute local path to the source image."),
+        imageData: z
+          .string()
+          .optional()
+          .describe("Base64-encoded source image bytes. Takes precedence over localPath if both are given."),
+        baseName: z
+          .string()
+          .optional()
+          .describe("Filename base (no extension, no width suffix). Defaults to the repo name with any -images suffix stripped."),
+        width: z.number().int().default(800),
+      },
+    },
+    async ({ repo, localPath, imageData, baseName, width }) => {
+      const resolved = resolveImageInput({ localPath, imageData });
+      if (!Buffer.isBuffer(resolved)) return errorResult(resolved.error);
+      const acct = owner();
+      const name = baseName ?? repo.replace(/-images$/, "");
+      const filename = `${name}-sm.webp`;
+
+      const small = await toResizedWebpBuffer(resolved, width);
+      await putFileContents(acct, repo, filename, small, `Add ${filename}`);
+
+      return textResult({ webpUrlSmall: jsdelivrUrlFor(repo, filename) });
     }
   );
 
