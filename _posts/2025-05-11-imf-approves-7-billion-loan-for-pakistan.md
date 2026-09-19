@@ -1,14 +1,13 @@
 ---
-title: "IMF Approves 7 Billion Climate Resilience Loan for Pakistan"
-description: "The IMF approves a new $7 billion climate resilience loan for Pakistan amid economic reforms and rising tensions with India."
+title: IMF Approves 7 Billion Climate Resilience Loan for Pakistan
+description: The IMF approves a new $7 billion climate resilience loan for Pakistan amid economic reforms and rising tensions with India.
 date: 2025-05-11
 categories: [news, world economy, South Asia, Politics]
-tags: [IMF, pakistan, Climate Resilience Fund, Economic Reform, Global Economy, South Asia, india-pakistan-relations, Shehbaz Sharif, Cross-border Tensions, Loan Disbursement, $7B Program, Climate Finance, Economic Stability, International Relations, Global Financial Aid, IMF Loan, Kashmir Conflict, India Concerns, Debt Financing, Global Politics, Economic Crisis, IMF Board, Loan Review, Climate Adaptation, Policy Reform, South Asian Politics]
+tags: [IMF, pakistan, Climate Resilience Fund, Global Economy, South Asia, india-pakistan-relations, Shehbaz Sharif, Cross-border Tensions, $7B Program, Economic Stability, International Relations, Kashmir Conflict, India Concerns, Debt Financing]
 image:
   path: https://scriptxeno.github.io/2025-05-11-imf-approves-7-billion-loan-for-pakistan-images/1.webp
   alt: IMF approves $7 billion loan to Pakistan amid economic stabilization efforts
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-  
 ---
 
 # **IMF Approves $1.4 Billion Climate Resilience Loan for Pakistan and Releases $1 Billion in Support**

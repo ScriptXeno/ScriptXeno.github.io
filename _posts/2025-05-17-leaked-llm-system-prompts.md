@@ -1,10 +1,10 @@
 ---
-title: "Explore the Leaked LLM System Prompts Shaking the Industry"
-description: "System prompts from popular AI platforms like Claude and ChatGPT have been leaked. Discover the implications of these leaks on AI behavior, ethical alignment, and prompt engineering."
+title: Explore the Leaked LLM System Prompts Shaking the Industry
+description: System prompts from popular AI platforms like Claude and ChatGPT have been leaked. Discover the implications of these leaks on AI behavior, ethical alignment, and prompt engineering.
 author: moon
-date: 2025-05-17 10:00:00
+date: 2025-05-17
 categories: [Artificial Intelligence, LLMs, news]
-tags: [leaked prompts, llm system prompt, Claude 3.5 Sonnet, OpenAI, ChatGPT system prompt, AI prompt injection, ethical AI, Claude prompt leak, system prompt structure, generative-ai, whisper leaks, anthropic ai, whisper ai, llm jailbreak, prompt engineering, prompt leak, AI behavior rules, ethical alignment, AI hallucination, Claude Haiku, AI transparency, whisper ai whistleblower, ChatGPT4o prompt leak, Claude Opus, prompt transparency, prompt formatting, AI safety, AI alignment, AI ethics, AI behavior modification, AI prompt design, AI system prompts, AI prompt engineering, AI prompt structure, AI prompt guidelines, AI prompt templates, AI prompt examples, AI prompt best practices, AI prompt optimization, AI prompt strategies, AI prompt techniques, AI prompt analysis, AI prompt evaluation, AI prompt testing, AI prompt performance, AI prompt tuning, AI prompt customization, AI prompt personalization, AI prompt adaptation, AI prompt refinement, AI prompt iteration, AI prompt feedback, AI prompt improvement, AI prompt innovation, Leaked, System, Prompt, ai, Claude, ChatGPT, OpenAI, Anthropic]
+tags: [leaked prompts, llm system prompt, Claude 3.5 Sonnet, OpenAI, ChatGPT system prompt, AI prompt injection, ethical AI, Claude prompt leak, system prompt structure, generative-ai, whisper leaks, anthropic ai, whisper ai, llm jailbreak, prompt engineering, prompt leak, AI behavior rules, ethical alignment, AI hallucination, Claude Haiku, AI transparency, whisper ai whistleblower, ChatGPT4o prompt leak, Claude Opus, prompt transparency, prompt formatting, AI safety, AI alignment, AI ethics, AI behavior modification, AI system prompts, AI prompt engineering, AI prompt design, ai, Claude, Anthropic]
 image:
   path: https://scriptxeno.github.io/2025-05-17-leaked-llm-system-prompts-images/2025-05-17-leaked-llm-system-prompts.webp
   alt: leaked llm system prompts from popular ai platforms exposed in open source whistleblower repo

@@ -4,7 +4,7 @@ description: Gartner forecasts 40% of agentic AI projects will be cancelled by 2
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Agents, AI Tools, Vibe Coding]
-tags: [ai agents, agentic ai, AI Coding Agent, Claude Code Guide, GitHub Copilot, OpenCode, ai-cost-reduction, Cost-Saving Tech for SMBs, agentic ai for small business]
+tags: [ai agents, agentic ai, AI Coding Agent, Claude Code Guide, GitHub Copilot, OpenCode, ai-cost-reduction, Cost-Saving Tech for SMBs]
 image:
   path: https://scriptxeno.github.io/2026-08-19-ai-agent-runaway-cost-controls-checklist-images/2026-08-19-ai-agent-runaway-cost-controls-checklist.webp
   alt: A cost line chart spiking upward off the frame, with a limit marker placed before the spike begins

@@ -1,15 +1,15 @@
 ---
 title: "Operation Sindoor: Precision Strikes by Indian Armed Forces"
-description: "India's military operation Sindoor targets terror camps in Pakistan and Pakistan-administered Kashmir, following the Pahalgam attack"
-date: 2025-05-07 22:13:39 +5:30
-categories: [news, military]
+description: India's military operation Sindoor targets terror camps in Pakistan and Pakistan-administered Kashmir, following the Pahalgam attack
 author: oceanofanything
-permalink: /operation-sindoor-7th-may/
-tags: [india, pakistan, operation-sindoor, military-strikes, terrorism, national-security, precision-strikes, kashmir, india-pakistan-relations, counterterrorism, day-2]
+date: 2025-05-07
+categories: [news, military]
+tags: [india, pakistan, operation-sindoor, military-strikes, terrorism, national-security, precision-strikes, kashmir, india-pakistan-relations, counterterrorism]
 image:
   path: https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/1.webp
+  alt: Operation Sindoor
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-  alt: "Operation Sindoor"
+permalink: /operation-sindoor-7th-may/
 ---
 
 # Operation Sindoor: India’s Precision Strikes on Terror Camps After Pahalgam Attack

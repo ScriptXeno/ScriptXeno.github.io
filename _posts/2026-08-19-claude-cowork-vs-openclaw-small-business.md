@@ -4,7 +4,7 @@ description: Claude Cowork just expanded from desktop-only to web and mobile, an
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Agents, automation, AI]
-tags: [Claude, Claude Cowork, Anthropic, OpenClaw, ai agents for smb, Small business AI automation, agentic ai for small business, autonomous ai agents, business process automation, smb automation tools]
+tags: [Claude, Claude Cowork, Anthropic, OpenClaw, agentic ai for small business]
 image:
   path: https://scriptxeno.github.io/2026-08-19-claude-cowork-vs-openclaw-small-business-images/2026-08-19-claude-cowork-vs-openclaw-small-business.webp
   alt: Hosted Claude Cowork versus self-hosted OpenClaw comparison graphic

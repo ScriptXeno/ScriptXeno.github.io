@@ -1,15 +1,14 @@
 ---
-title: "Why OpenClaw Is a Security Risk - How to Use Agentic AI Safely (Defend, Configure, Detect)"
-description: "OpenClaw and similar autonomous AI agents can expose credentials, leak data, and escalate privileges when misconfigured. This deep guide explains the concrete risks, real incidents, and a full, actionable security playbook (hardening checklist, monitoring recipes, incident response, and safer alternatives). Includes vetted sources."
+title: Why OpenClaw Is a Security Risk - How to Use Agentic AI Safely (Defend, Configure, Detect)
+description: OpenClaw and similar autonomous AI agents can expose credentials, leak data, and escalate privileges when misconfigured. This deep guide explains the concrete risks, real incidents, and a full, actionable security playbook (hardening checklist, monitoring recipes, incident response, and safer alternatives). Includes vetted sources.
 author: oceanofanything
 date: 2026-02-19
 categories: [Artificial Intelligence, LLMs, news]
-tags: [ileaked prompts, llm system prompt, Claude 3.5 Sonnet, OpenAI, ChatGPT system prompt, AI prompt injection, ethical AI, Claude prompt leak, system prompt structure, generative-ai, whisper leaks, anthropic ai, whisper ai, llm jailbreak, prompt engineering, prompt leak, AI behavior rules, ethical alignment, AI hallucination, Claude Haiku, AI transparency, whisper ai whistleblower, ChatGPT4o prompt leak, Claude Opus, prompt transparency, prompt formatting, AI safety, AI alignment, AI ethics, AI behavior modification, AI prompt design, AI system prompts, AI prompt engineering, AI prompt structure, AI prompt guidelines, AI prompt templates, AI prompt examples, AI prompt best practices, AI prompt optimization, AI prompt strategies, AI prompt techniques, AI prompt analysis, AI prompt evaluation, AI prompt testing, AI prompt performance, AI prompt tuning, AI prompt customization, AI prompt personalization, AI prompt adaptation, AI prompt refinement, AI prompt iteration, AI prompt feedback, AI prompt improvement, AI prompt innovation, Leaked, System, Prompt, ai, Claude, ChatGPT, OpenAI, Anthropic, PicoClaw, OpenClaw]
+tags: [OpenClaw, agentic ai, ai agents, cybersecurity, AI safety, AI risk, AI governance]
 image:
   path: https://oceanofanything.github.io/scriptxeno-images-2-17-26/2026-02-19-why-openclaw-is-dengerous.webp
   alt: Why OpenClaw Is Dangerous If Misconfigured - A Security Playbook
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
 # 1) What is OpenClaw - short technical description
 

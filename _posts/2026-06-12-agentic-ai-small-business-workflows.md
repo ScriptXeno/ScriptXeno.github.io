@@ -1,15 +1,14 @@
 ---
 title: "Beyond Chatbots: Implementing Agentic AI in Your Small Business Workflow (2026 Guide)"
-description: "Learn how Agentic AI is transforming small business workflows in 2026. Discover practical use cases, implementation strategies, tools, and real-world benefits beyond traditional AI chatbots."
+description: Learn how Agentic AI is transforming small business workflows in 2026. Discover practical use cases, implementation strategies, tools, and real-world benefits beyond traditional AI chatbots.
 author: oceanofanything
 date: 2026-06-12
 categories: [Chatbots, AI Agents, AI]
-tags: [agentic ai, agentic ai for small business, ai agents for business, Autonomous AI workflows, ai workflow automation, Small business AI automation, AI agents vs chatbots, Business process automation with AI]
+tags: [agentic ai, Small business AI automation, AI agents vs chatbots, Business process automation with AI]
 image:
   path: https://scriptxeno.github.io/2026-06-12-agentic-ai-small-business-workflows/2026-06-12-agentic-ai-small-business-workflows.webp
   alt: Artificial intelligence has evolved far beyond simple chatbots
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
 
 ## Beyond Chatbots: Implementing Agentic AI in Your Small Business Workflow

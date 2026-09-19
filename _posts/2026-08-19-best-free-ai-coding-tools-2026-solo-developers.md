@@ -4,7 +4,7 @@ description: A verified, no-fluff list of AI coding tools with genuine no-credit
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Tools, AI, Developer Platforms]
-tags: [Free AI Coding Tools, OpenCode AI, GitHub Copilot, ai coding tools, Free AI for Programming, Opencode Zen, Claude Max Alternative, AI Coding Assistant Free]
+tags: [Free AI Coding Tools, OpenCode AI, GitHub Copilot, Opencode Zen, Claude Max Alternative]
 image:
   path: https://scriptxeno.github.io/2026-08-19-best-free-ai-coding-tools-2026-solo-developers-images/2026-08-19-best-free-ai-coding-tools-2026-solo-developers.webp
   alt: Grid of six free AI coding tool tiles for solo developers

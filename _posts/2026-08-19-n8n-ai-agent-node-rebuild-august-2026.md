@@ -4,7 +4,7 @@ description: n8n's AI Agent node didn't get one dramatic rebuild in August 2026,
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Agents, automation]
-tags: [n8n, MCP, automation, workflow automation, smb automation tools, agentic ai for small business, persistent memory for ai agents, Claude]
+tags: [n8n, MCP, automation, persistent memory for ai agents, Claude]
 image:
   path: https://scriptxeno.github.io/2026-08-19-n8n-ai-agent-node-rebuild-august-2026-images/2026-08-19-n8n-ai-agent-node-rebuild-august-2026.webp
   alt: A row of five wrench and gear icons with one highlighted and checked, representing incremental fixes

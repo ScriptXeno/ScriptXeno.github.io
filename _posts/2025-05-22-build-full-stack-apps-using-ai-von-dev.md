@@ -4,7 +4,7 @@ description: Von.dev was a free, browser-based AI coding IDE that launched in be
 author: oceanofanything
 date: 2025-05-22
 categories: [AI Tools, Developer Platforms, news]
-tags: [Von.dev, AI IDE, browser IDE, vibe coding, ai coding tools, Free AI Coding Tools, Open Source AI Agent, Claude Code Unlimited, developer productivity]
+tags: [Von.dev, AI IDE, vibe coding, Free AI Coding Tools, developer productivity]
 image:
   path: https://scriptxeno.github.io/2025-05-22-build-full-stack-apps-using-ai-von-dev-images/2025-05-22-build-full-stack-apps-using-ai-von-dev.webp
   alt: AI-powered full-stack development with Von.dev platform

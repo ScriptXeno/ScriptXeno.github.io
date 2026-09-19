@@ -4,7 +4,7 @@ description: "GitHub Copilot, Claude Code, and OpenCode compared on real 2026 pr
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Agents, AI, Developer Platforms]
-tags: [GitHub Copilot, Claude Code Tutorial, OpenCode AI, AI coding assistant, developer productivity, ai coding tools, OpenCode vs GitHub Copilot, pricing]
+tags: [GitHub Copilot, OpenCode AI, AI coding assistant, developer productivity, ai coding tools, OpenCode vs GitHub Copilot, pricing]
 image:
   path: https://scriptxeno.github.io/2026-08-19-github-copilot-vs-claude-code-vs-opencode-images/2026-08-19-github-copilot-vs-claude-code-vs-opencode.webp
   alt: Price-scale comparison graphic for GitHub Copilot, Claude Code, and OpenCode

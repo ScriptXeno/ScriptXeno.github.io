@@ -4,7 +4,7 @@ description: "A real cost breakdown for running OpenClaw as a self-hosted AI age
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Agents, AI, automation]
-tags: [OpenClaw, Small business AI automation, ai agents for smb, Business Automation Solutions, pricing, Cost-Saving Tech for SMBs, smb automation tools, agentic ai for small business]
+tags: [OpenClaw, pricing, smb automation tools]
 image:
   path: https://scriptxeno.github.io/2026-08-19-openclaw-small-business-cost-breakdown-images/2026-08-19-openclaw-small-business-cost-breakdown.webp
   alt: Bar chart graphic showing three monthly cost tiers for running OpenClaw in a small business

@@ -1,15 +1,14 @@
 ---
 title: "OpenCode: The Open Source AI Agent Transforming Software Development in 2026"
-description: "Discover OpenCode, the open-source AI coding agent competing with Claude Code, Cursor, and Copilot. Explore features, architecture, real-world use cases, user experiences, case studies, and expert analysis."
+description: Discover OpenCode, the open-source AI coding agent competing with Claude Code, Cursor, and Copilot. Explore features, architecture, real-world use cases, user experiences, case studies, and expert analysis.
 author: oceanofanything
 date: 2026-06-13
 categories: [Vibe Coding, AI Agents, AI]
-tags: [OpenCode, OpenCode AI, OpenCode AI Agent, OpenCode Coding Agent, Open Source AI Agent, Open Source Coding Agent, AI Coding Agent, Terminal AI Agent, AI coding assistant, AI software development tools, AI developer tools, AI programming assistant, Agentic AI development, Autonomous coding agent, Open source AI coding tool, AI coding workflow, AI code generation, Developer AI tools, What is OpenCode AI, How to use OpenCode AI, OpenCode AI tutorial, OpenCode AI review, OpenCode AI features, OpenCode AI setup guide, OpenCode AI GitHub integration, OpenCode AGENTS.md guide, OpenCode local models, OpenCode with Ollama, OpenCode terminal agent, OpenCode for software developers, OpenCode for startups, OpenCode coding workflow, OpenCode AI use cases, OpenCode architecture explained, OpenCode vs Claude Code, OpenCode vs Cursor, OpenCode vs GitHub Copilot, OpenCode vs Devin, OpenCode vs Windsurf, OpenCode vs Aider, OpenCode vs Goose, Claude Code alternative, Cursor alternative, Open source alternative to Claude Code, Open source alternative to Cursor, Best AI coding agent 2026, Best open source AI coding agent]
+tags: [OpenCode, Open Source AI Agent, AI coding assistant, AI software development tools, Agentic AI development, Autonomous coding agent, AI code generation, OpenCode AGENTS.md guide, OpenCode local models, OpenCode with Ollama, OpenCode vs Claude Code, OpenCode vs Cursor, OpenCode vs GitHub Copilot, OpenCode vs Devin, OpenCode vs Windsurf, OpenCode vs Aider, OpenCode vs Goose, Claude Code alternative, Cursor alternative, Best AI coding agent 2026]
 image:
   path: https://scriptxeno.github.io/2026-06-13-opencode-open-source-ai-agent/2026-06-13-opencode-open-source-ai-agent.webp
   alt: Among the most talked-about tools in this category is OpenCode.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
 
 ## OpenCode: The Open Source AI Agent Transforming Software Development

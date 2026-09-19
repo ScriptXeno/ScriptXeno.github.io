@@ -1,17 +1,15 @@
 ---
-title: "How to Use Claude Code Unlimited with Opencode Zen (Free Alternative to Claude Max)"
-description: "Learn how to use Claude Code Unlimited with Opencode Zen for free. Configure powerful coding models inside Claude Code without paying $200/month for Claude Max."
+title: How to Use Claude Code Unlimited with Opencode Zen (Free Alternative to Claude Max)
+description: Learn how to use Claude Code Unlimited with Opencode Zen for free. Configure powerful coding models inside Claude Code without paying $200/month for Claude Max.
 author: oceanofanything
 date: 2026-06-17
 categories: [Vibe Coding, AI Agents, AI]
-tags: [Claude Code Unlimited, Claude Code Unlimited Free, How to Use Claude Code Unlimited, Claude Code with Opencode, Opencode Zen, Opencode Zen Setup, Opencode Zen API, Opencode Zen Free Models, Claude Code Free Setup, Claude Code alternative, Free Alternative to Claude Max, Claude Max Alternative, Claude Max Free, Claude Code Custom API, Claude Code Custom Endpoint, Claude Code settings.json, Claude Code Configuration, Claude Code API Setup, Claude Code Model Configuration, Claude Code Custom Model, Claude Code with MiniMax M2.5, MiniMax M2.5 Free, MiniMax M2.5 Claude Code, Free AI Coding Setup, Free AI Coding Tools, Unlimited AI Coding Assistant, AI Coding Assistant Free, Free Vibe Coding Setup, Vibe Coding Tools, Vibe Coding Software, OpenCode AI, Opencode CLI, Opencode API Key, Opencode Model Names, Opencode Zen Model Names, Claude Code Model Names, How to Find Opencode Model Names, curl Opencode Zen Models, Anthropic Compatible API, Claude Code API Integration, Claude Code on Windows, Claude Code on Linux, Claude Code on macOS, Claude Code for Developers, AI coding workflow, Best Free Coding AI, Best Claude Code Setup, Claude Code Tutorial, Claude Code Guide, Free Coding AI for Developers, Free AI for Programming, AI Pair Programmer Free, Claude Code Productivity Setup, Claude Code for Startups, Claude Code for Students, Claude Code for Indie Hackers, Open Source AI Coding Tools, AI Coding Without Subscription, Use Claude Code Without Claude Max, Claude Code Unlimited Without Paying, Claude Code $200 Alternative, Best Free Claude Max Alternative, Claude Code with Custom Base URL, Anthropic Base URL Configuration, Claude Code API Key Setup, How to Configure Claude Code, How to Install Claude Code, How to Use Opencode Zen with Claude Code, Claude Code Free Models, Multi Model AI Coding Setup, Frontier AI Models for Coding, Unlimited Vibe Coding Setup, Free Agentic Coding Setup, AI Assisted Development Tools, AI Coding Environment, Best Free AI Coding Workflow, Coding with AI for Free, Claude Code Unlimited 2026, Opencode Zen Tutorial, Opencode Zen Guide, NPM Opencode Installation, Opencode CLI Tutorial, Claude Code Power User Setup, Advanced Claude Code Configuration]
+tags: [Claude Code Unlimited, Claude Code Unlimited 2026, Claude Max Alternative, Opencode Zen, Opencode Zen Setup, Claude Code Configuration, Claude Code settings.json, Anthropic Compatible API, Claude Code Tutorial, Claude Code for Developers, Claude Code with MiniMax M2.5, Free AI Coding Tools, vibe coding, Open Source AI Coding Tools, OpenCode AI, Opencode CLI, Claude Code alternative, AI coding workflow]
 image:
   path: https://scriptxeno.github.io/2026-06-17-claude-code-unlimited-opencode-zen/2026-06-17-claude-code-unlimited-opencode-zen.webp
   alt: Anthropic's Claude Max subscription costs around $200 per month, which puts advanced AI coding workflows out of reach for many developers.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-redirect_from:
-  - /posts/how-to-use-claude-code-unlimited-with-opencode-zen-free-alternative-to-claude-max/
-
+redirect_from: [/posts/how-to-use-claude-code-unlimited-with-opencode-zen-free-alternative-to-claude-max/]
 ---
 
 ## How to Use Claude Code Unlimited with Opencode Zen (Free Alternative to Claude Max)

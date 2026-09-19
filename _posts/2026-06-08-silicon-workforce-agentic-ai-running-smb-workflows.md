@@ -1,15 +1,14 @@
 ---
 title: "The Silicon Workforce: How Agentic AI Is Running SMB Workflows in 2026"
-description: "Discover how agentic AI is transforming small business operations by automating invoicing, customer follow-ups, scheduling, and cross-app workflows. Learn how SMBs are building a silicon workforce in 2026."
+description: Discover how agentic AI is transforming small business operations by automating invoicing, customer follow-ups, scheduling, and cross-app workflows. Learn how SMBs are building a silicon workforce in 2026.
 author: oceanofanything
 date: 2026-06-08
 categories: [Vibe Coding, Developer Platforms, news]
-tags: [agentic ai, agentic ai for small business, ai agents for smb, ai workflow automation, cross app automation, ai invoicing automation, customer follow up automation, business process automation, autonomous ai agents, ai workforce, digital workforce, agentic workflows, smb automation tools, ai business automation 2026, autonomous business operations]
+tags: [agentic ai, smb automation tools, ai invoicing automation, customer follow up automation, cross app automation, ai workforce]
 image:
   path: https://scriptxeno.github.io/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows.webp
   alt: Imagine hiring a team member who never sleeps, never forgets a task, works across every software tool in your company, and costs a fraction of a full-time employee.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
 
 ## Introduction

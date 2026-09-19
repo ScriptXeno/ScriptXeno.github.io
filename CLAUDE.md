@@ -48,7 +48,7 @@ backend, database, or JS framework — Jekyll renders everything to `_site/` at 
 ## Content model: posts, tags, categories, images
 
 Post front matter (see any file in `_posts/`) drives the site: `title`, `description`, `author`
-(must be a key in `_data/authors.yml` — currently `oceanofanything`, `dipro`), `date`, `categories: [...]`,
+(must be a key in `_data/authors.yml` — currently `oceanofanything`), `date`, `categories: [...]`,
 `tags: [...]`, and `image: {path, alt, lqip}`. Filenames follow `_posts/YYYY-MM-DD-slug.md`, but the
 `permalink: /posts/:title/` default in `_config.yml` means published URLs are **not** date-based —
 that default must not change without updating every existing post's links (there's an explicit warning

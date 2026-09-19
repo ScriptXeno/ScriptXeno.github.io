@@ -1,15 +1,14 @@
 ---
 title: "Best Trending GitHub Repositories in 2026: 12 Open-Source Projects Developers Are Watching Right Now"
-description: "Discover the best trending GitHub repositories in 2026. Explore 12 fast-growing open-source projects for AI, coding, automation, developer productivity, and software engineering."
+description: Discover the best trending GitHub repositories in 2026. Explore 12 fast-growing open-source projects for AI, coding, automation, developer productivity, and software engineering.
 author: oceanofanything
 date: 2026-06-07
 categories: [AI Tools, Developer Platforms, news]
-tags: [best trending github repositories, top github projects 2026, open-source repositories, ai coding tools, developer productivity, software engineering, ai agents, code understanding, automation tools, developer education, github trends, best github repos, ai engineering, code visualization, persistent memory for ai agents, ai research workflows, video generation with ai, browser automation tools, financial services with ai, content creation with ai, ai infrastructure tools, github trending projects, open source github projects,trending repositories github, best github repositories 2026, github projects for developers]
+tags: [best trending github repositories, ai coding tools, developer productivity, software engineering, ai agents, code understanding, automation tools, developer education, ai engineering, code visualization, persistent memory for ai agents, ai research workflows, video generation with ai, browser automation tools, financial services with ai, content creation with ai, ai infrastructure tools]
 image:
   path: https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/2026-06-07-best-trending-github-repositories-2026.webp
-  alt: The best projects focus not only on extracting emails but also on ensuring data quality and usability
+  alt: 12 trending open-source GitHub repositories developers are watching in 2026
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
 
 # Why Are Developers Searching for Trending GitHub Repositories?

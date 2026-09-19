@@ -1,15 +1,14 @@
 ---
 title: "Building Custom Portals with Low-Code: Launch Internal Tools 10x Faster"
-description: "Learn how non-technical founders can build custom business portals and internal tools using low-code platforms, reducing development time, costs, and operational bottlenecks."
+description: Learn how non-technical founders can build custom business portals and internal tools using low-code platforms, reducing development time, costs, and operational bottlenecks.
 author: oceanofanything
 date: 2026-06-08
 categories: [Vibe Coding, Developer Platforms, news]
-tags: [Low-code development, internal tools, Custom business portals, Low-code app development, Internal workflow automation, business process automation, Low-code software development, internal business applications]
+tags: [Low-code development, Custom business portals, business process automation, internal tools]
 image:
   path: https://scriptxeno.github.io/2026-06-08-building-custom-portals-with-low-code/2026-06-08-building-custom-portals-with-low-code.webp
   alt: Every growing business eventually hits the same wall.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-
 ---
 
 ## Introduction

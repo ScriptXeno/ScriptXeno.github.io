@@ -1,10 +1,10 @@
 ---
-title: "PicoClaw AI Assistant in Go – Ultra-Lightweight AI Agent for $10 Hardware (<10MB RAM)"
-description: "Discover PicoClaw, the ultra-efficient AI assistant written in Go that runs on $10 hardware with less than 10MB RAM. Explore features, installation, deployment, security sandbox, Docker setup, API integration, and why PicoClaw is redefining lightweight AI agents."
+title: PicoClaw AI Assistant in Go – Ultra-Lightweight AI Agent for $10 Hardware (<10MB RAM)
+description: Discover PicoClaw, the ultra-efficient AI assistant written in Go that runs on $10 hardware with less than 10MB RAM. Explore features, installation, deployment, security sandbox, Docker setup, API integration, and why PicoClaw is redefining lightweight AI agents.
 author: oceanofanything
 date: 2026-02-17
 categories: [Artificial Intelligence, LLMs, news]
-tags: [ileaked prompts, llm system prompt, Claude 3.5 Sonnet, OpenAI, ChatGPT system prompt, AI prompt injection, ethical AI, Claude prompt leak, system prompt structure, generative-ai, whisper leaks, anthropic ai, whisper ai, llm jailbreak, prompt engineering, prompt leak, AI behavior rules, ethical alignment, AI hallucination, Claude Haiku, AI transparency, whisper ai whistleblower, ChatGPT4o prompt leak, Claude Opus, prompt transparency, prompt formatting, AI safety, AI alignment, AI ethics, AI behavior modification, AI prompt design, AI system prompts, AI prompt engineering, AI prompt structure, AI prompt guidelines, AI prompt templates, AI prompt examples, AI prompt best practices, AI prompt optimization, AI prompt strategies, AI prompt techniques, AI prompt analysis, AI prompt evaluation, AI prompt testing, AI prompt performance, AI prompt tuning, AI prompt customization, AI prompt personalization, AI prompt adaptation, AI prompt refinement, AI prompt iteration, AI prompt feedback, AI prompt improvement, AI prompt innovation, Leaked, System, Prompt, ai, Claude, ChatGPT, OpenAI, Anthropic, PicoClaw, OpenClaw]
+tags: [PicoClaw, OpenClaw, golang, docker, edge computing, self-hosted, ai agents, automation]
 image:
   path: https://oceanofanything.github.io/scriptxeno-images-2-17-26/2026-02-17-picoclaw-the-ultimate-lightweight-ai-agent.webp
   alt: 🦐 PicoClaw - The Ultra-Lightweight AI Assistant Built for $10 Hardware

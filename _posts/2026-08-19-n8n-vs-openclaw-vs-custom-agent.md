@@ -4,7 +4,7 @@ description: n8n's visual workflow builder, OpenClaw's self-hosted autonomous ag
 author: oceanofanything
 date: 2026-08-19
 categories: [AI Agents, automation, AI]
-tags: [OpenClaw, automation, business process automation, ai agents for smb, workflow automation, smb automation tools, ai workflow automation, agentic ai for small business]
+tags: [OpenClaw, n8n, automation, business process automation]
 image:
   path: https://scriptxeno.github.io/2026-08-19-n8n-vs-openclaw-vs-custom-agent-images/2026-08-19-n8n-vs-openclaw-vs-custom-agent.webp
   alt: Three diverging path graphic comparing n8n, OpenClaw, and a custom agent
