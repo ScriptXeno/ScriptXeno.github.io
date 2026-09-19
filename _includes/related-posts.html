@@ -78,6 +78,20 @@
       {% for post in relate_posts %}
         <article class="col">
           <a href="{{ post.url | relative_url }}" class="post-preview card h-100">
+            {% if post.image %}
+              {% assign src = post.image.path | default: post.image %}
+              {% unless src contains '://' %}
+                {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
+              {% endunless %}
+              {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
+              <div class="preview-img{% if post.image.lqip %} blur{% else %} shimmer{% endif %}">
+                {% if post.image.lqip %}
+                  <img data-src="{{ src }}" data-lqip="true" src="{{ post.image.lqip }}" alt="{{ alt }}">
+                {% else %}
+                  <img src="{{ src }}" alt="{{ alt }}" loading="lazy">
+                {% endif %}
+              </div>
+            {% endif %}
             <div class="card-body">
               {% include datetime.html date=post.date lang=include.lang %}
               <h4 class="pt-0 my-2">{{ post.title }}</h4>

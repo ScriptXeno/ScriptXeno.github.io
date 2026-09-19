@@ -434,6 +434,18 @@ header {
     @include mx.label(1.1rem, 600);
   }
 
+  .preview-img {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: v.$radius-lg v.$radius-lg 0 0;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
   time {
     @extend %normal-font-style;
     @extend %text-xs;
