@@ -79,19 +79,6 @@ But there were major issues:
 - Resulted in **unexpectedly high API bills**, especially with [Gemini 2.5 Pro](https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/)
 - Community backlash grew over poor caching performance
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ---
 
 ## Implicit Caching: Google’s Game-Changer

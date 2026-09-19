@@ -40,17 +40,6 @@ Pakistan's **Prime Minister Muhammad Shehbaz Sharif** wasted no time in respondi
 
 > “India's attempts to sabotage the IMF program have failed.”
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : '837e46ded4686f2137efb7a651d937f0',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/837e46ded4686f2137efb7a651d937f0/invoke.js"></script>
-
 This strong rebuttal highlights how financial diplomacy is now entangled with regional tensions. Despite India’s objection, the IMF proceeded with the approval, indicating that the financial institution continues to evaluate loan programs on technical merit and economic indicators.
 
 ## **Background: IMF’s $7 Billion Program with Pakistan**
@@ -94,19 +83,6 @@ Following this major approval, Pakistan is now expected to:
 - Deliver results under the climate resilience framework
 
 The government has signaled its readiness to **comply with IMF benchmarks** and ensure that the funds are properly used to support the country’s recovery.
-
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
 
 ## **Final Thoughts**
 

@@ -31,6 +31,7 @@ Content is analysis and practical guidance grounded in real pricing, benchmarks,
 - [Claude Code's Weekly Limit Boost Didn't End on August 19](https://scriptxeno.github.io/posts/claude-code-weekly-limit-boost-ends/): Live-checked status of Anthropic's +50% weekly usage promotion.
 - [Kimi K3 and Kimi Code CLI](https://scriptxeno.github.io/posts/kimi-k3-kimi-code-cli-vs-claude-code/): Whether Moonshot AI's open-weight model and CLI are a real free alternative to Claude Code.
 - [How I Run This Blog with Claude Code, a CLAUDE.md File, and a Custom MCP Server](https://scriptxeno.github.io/posts/how-i-run-this-blog-claude-code-mcp-server/): First-hand case study of this blog's own Claude Code + MCP publishing setup.
+- [Best AI Coding Assistants in 2026: Tested and Ranked](https://scriptxeno.github.io/posts/best-ai-coding-assistants-2026-tested-and-ranked/): GitHub Copilot, Cursor, and Claude Code compared on accuracy, pricing, and privacy, cross-checked against independent benchmarks and real usage data.
 
 ## Autonomous agents: OpenClaw & PicoClaw
 

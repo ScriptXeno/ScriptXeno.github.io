@@ -123,19 +123,6 @@ Noticed your custom font looks too spaced out? Don’t worry, the **Spacing Opti
 - **Letter Spacing**
 - **Top & Left Margins**
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 These are crucial when you're using custom fonts, especially those that weren’t optimized for uniform spacing.
 
 ---

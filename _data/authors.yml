@@ -9,6 +9,24 @@
 oceanofanything:
   name: Nakshatra Ranjan Saha (OCEANOFANYTHING)
   twitter: oceanofanything
-  url: https://github.com/OCEANOFANYTHING
+  # Points at our own /about/ page (enriched with ProfilePage/Person JSON-LD, see
+  # _includes/head.html) rather than an external profile, per Google's author-markup
+  # guidance to link to "an about me page, or a bio page" for author.url.
+  url: https://scriptxeno.github.io/about/
   picture: https://avatars.githubusercontent.com/u/79260761
+  # One-line bio surfaced in the /about/ page's Person JSON-LD (mainEntity.description).
+  # Reuses phrasing already published (near-verbatim) in this site's own posts, e.g.
+  # _posts/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows.md and
+  # _posts/2026-06-08-smart-technology-operational-cost-reduction.md, rather than
+  # inventing new claims.
+  bio: Entrepreneur and technology enthusiast focused on AI, automation, digital growth, and modern business systems.
+  # Real, already-published profiles (same list as site.social.links / the About page's
+  # "My Presence Elsewhere" section) — emitted as Person.sameAs on /about/ for E-E-A-T
+  # entity disambiguation. jekyll-seo-tag itself has no sameAs/bio support (checked
+  # against the installed jekyll-seo-tag 2.8.0 gem source), hence the custom JSON-LD.
+  sameAs:
+    - https://x.com/oceanofanything
+    - https://github.com/OCEANOFANYTHING
+    - https://facebook.com/nakshatra.ranjan.saha
+    - https://linkedin.com/in/nakshatra-ranjan-saha-93a31b262
 

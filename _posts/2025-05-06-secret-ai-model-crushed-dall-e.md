@@ -166,17 +166,6 @@ While Canva introduced its AI tools for quick visuals, Recraft dives deep. It re
 
 No more clunky edits. Recraft places logos exactly where they need to be—and the best part? It all happens in one go. Designers rejoice!
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : '837e46ded4686f2137efb7a651d937f0',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/837e46ded4686f2137efb7a651d937f0/invoke.js"></script>
-
 ---
 
 ## **The Human Behind the Machine — Anna Veronika Dorogush**

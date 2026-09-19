@@ -220,19 +220,6 @@ OpenAI’s system prompts reveal a similar level of depth, with a more subtle bu
 
 There’s an overwhelming emphasis on boundaries. The AI is told how to **refuse certain requests**, when to cite potential limitations, and how to navigate gray areas. It is also programmed to admit when it doesn’t know something—though that’s often just a clever deflection.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 One curious instruction from the prompt reads:
 
 > “If asked to browse or access a URL, explain that you cannot open links and ask the user to paste the content.”
@@ -355,19 +342,6 @@ So far, the repo has avoided legal issues—probably because it only includes **
 - User-discovered outputs
 
 Still, this balance is delicate. If companies decide to enforce IP claims more aggressively, this treasure trove could disappear overnight.
-
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : '837e46ded4686f2137efb7a651d937f0',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/837e46ded4686f2137efb7a651d937f0/invoke.js"></script>
-{%endraw%}
 
 ### **What To Do Before It Disappears**
 

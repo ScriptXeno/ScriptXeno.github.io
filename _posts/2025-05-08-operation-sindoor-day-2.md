@@ -89,17 +89,6 @@ The ongoing operation strengthens India’s position as a **regional leader**. I
 
 India's military engagement not only strengthens its deterrent posture against Pakistan but also enhances its strategic relations with other global powers. India’s readiness to project power through **Operation Sindoor** further cements its role as a key player in South Asian geopolitics, with a growing influence in international security discussions.
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : '837e46ded4686f2137efb7a651d937f0',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/837e46ded4686f2137efb7a651d937f0/invoke.js"></script>
-
 Moreover, the operation also showcases India’s deep commitment to its national security, with the **Indian Armed Forces** working tirelessly to ensure the country’s sovereignty remains intact amidst regional instability. It reinforces the message that India will not tolerate any form of aggression from its adversaries and is prepared to engage in sustained military actions if necessary.
 
 ## **Impact on the Kashmir Situation**
@@ -155,19 +144,6 @@ India, for its part, is unlikely to back down in the face of aggression, and as 
 The conflict remains fluid, and while tensions are high, the coming days will likely determine the broader trajectory of India-Pakistan relations. Whether this operation leads to a lasting deterrence or further escalation remains to be seen, but one thing is clear—**India’s resolve to defend its borders** has never been more evident.
 
 Stay updated with the latest developments on Operation Sindoor as India continues to navigate these challenging times in the face of external aggression.
-
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
 
 ---
 

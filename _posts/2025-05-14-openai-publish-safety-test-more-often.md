@@ -51,19 +51,6 @@ The evaluations visible on the hub encompass:
 
 OpenAI isn’t just setting and forgetting this portal. According to their latest announcement, the hub will be refreshed “on an ongoing basis”—with major model updates and new testing approaches reflected as the science of evaluation advances.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ---
 
 ## Why Publish Now? The Context Behind OpenAI’s Shift

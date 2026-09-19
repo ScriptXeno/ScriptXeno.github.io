@@ -3,6 +3,7 @@ title: About ScriptXeno
 layout: page
 permalink: /about/
 author: oceanofanything
+profile_page: true # emits ProfilePage/Person JSON-LD in _includes/head.html
 description: "This is the About page of ScriptXeno. Discover more about ScriptXeno, the mind behind the scripts, and the mission driving the content."
 image:
   path: /assets/logo/logo.png

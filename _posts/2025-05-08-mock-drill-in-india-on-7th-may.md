@@ -143,17 +143,6 @@ The public largely responded positively, recognizing the importance of preparedn
 
 In the ever-evolving landscape of global and regional security, **mock drills like Operation Abhyaas are not just precautionary—they're vital**. India, with its diverse geography and dense urban populations, faces a wide array of potential threats ranging from natural disasters to terrorist activities and even wartime scenarios. The country’s expanding infrastructure, strategic installations, and critical public zones demand robust preparedness.
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : '837e46ded4686f2137efb7a651d937f0',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/837e46ded4686f2137efb7a651d937f0/invoke.js"></script>
-
 Operation Abhyaas served multiple critical functions:
 
 - **Strengthening public readiness** in case of sudden emergencies, especially in sensitive areas like metros and coastal regions.

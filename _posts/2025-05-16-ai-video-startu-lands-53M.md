@@ -76,19 +76,6 @@ Gone are the days when you’re stuck feeding in just a prompt. Marey accepts no
 
 If you’re in Hollywood, or any creative field, the rise of AI-powered content can feel a little like an approaching tsunami. A study by the Animation Guild estimates that **over 100,000 jobs** in film, TV, and animation in the U.S. alone will be jostled by AI tools by 2026. No wonder so many creators eye new tech with suspicion—job security and artistic integrity are both on the line.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ### Transparent Training: Legal, Not Just Clever
 
 Here’s Moonvalley’s ace in the hole: instead of scouring the web for training material (and risking copyright firestorms), the company purposely sources its video data from legally licensed partners. That approach mirrors industry-respected sides like Bria and Adobe’s Stock platform. By paying for rights up front, Moonvalley reduces legal headaches for themselves—and, by extension, their customers.

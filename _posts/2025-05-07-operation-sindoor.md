@@ -111,17 +111,6 @@ Kashmir continues to be a **hotbed of militancy** and tension:
 | 2019 | Pulwama attack → Balakot airstrikes |
 | 2025 | Pahalgam attack → Operation Sindoor |
 
-<script type="text/javascript">
-	atOptions = {
-		'key' : '837e46ded4686f2137efb7a651d937f0',
-		'format' : 'iframe',
-		'height' : 600,
-		'width' : 160,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/837e46ded4686f2137efb7a651d937f0/invoke.js"></script>
-
 ## 🌐 Global Reactions
 
 ![Global Reactions](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/8.webp){: .shadow}

@@ -45,17 +45,4 @@ Whoop appears to be shifting its business model from shorter subscription plans 
 
 🧠 **Takeaway**: While the hardware upgrade offer has improved, Whoop’s misstep lies in its **poor communication** and **policy inconsistency** — lessons any tech subscription brand should take seriously.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 📣 **Bonus**: Whoop will also be exhibiting at **TechCrunch Sessions: AI** in Berkeley, CA on June 5, a great chance for curious minds to see what’s next in AI-powered fitness tech.

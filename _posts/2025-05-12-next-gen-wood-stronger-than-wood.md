@@ -75,19 +75,6 @@ Looking ahead, InventWood aims to turn **wood chips into structural beams**—no
 
 What InventWood is doing with Superwood is more than a materials innovation—it’s a **paradigm shift**. With steel-rivaling strength, fire resistance, and deep sustainability roots, Superwood could be the eco-material the world has been waiting for.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 Whether you're a builder, designer, or climate advocate, this is one revolution you’ll want to keep an eye on.
 
 ### Related Links

@@ -205,19 +205,6 @@ python smartsubai.py -d example.com --limit 50
 
 SmartSubAI uses **Cohere**’s large language model to make intelligent decisions about subdomain importance.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ### DNS Resolution Engine
 
 Powered by `dnspython`, it performs **resilient and precise lookups** with fallback and timeout handling.

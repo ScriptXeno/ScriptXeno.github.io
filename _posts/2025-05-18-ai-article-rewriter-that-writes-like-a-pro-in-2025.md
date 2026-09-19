@@ -234,19 +234,6 @@ It automatically removes such content during processing.
 
 Of course! The markdown files are yours to tweak and publish.
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ### **10. How do I contribute to this project?**
 
 Fork the repo, create a feature branch, and submit a pull request. Simple.

@@ -188,19 +188,6 @@ services:
 3. Stored by Dovecot in `/var/mail`
 4. Retrieved securely by clients via IMAP or POP3
 
-{%raw%}
-<script type="text/javascript">
-	atOptions = {
-		'key' : 'e790d6d5d53ad675ad53d13f5dcff8e8',
-		'format' : 'iframe',
-		'height' : 50,
-		'width' : 320,
-		'params' : {}
-	};
-</script>
-<script type="text/javascript" src="https://wirelessbin.com/e790d6d5d53ad675ad53d13f5dcff8e8/invoke.js"></script>
-{%endraw%}
-
 ---
 
 ## How to Add Users and Manage Mailboxes

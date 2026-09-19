@@ -83,6 +83,38 @@
     </script>
   {% endif %}
 
+  {% if page.profile_page and page.author %}
+    {% assign profile_author = site.data.authors[page.author] %}
+    {% if profile_author %}
+      <!-- ProfilePage JSON-LD: establishes this page's author as a schema.org Person
+           with verified sameAs profiles, per Google's (non-deprecated, current)
+           ProfilePage structured data guidance:
+           developers.google.com/search/docs/appearance/structured-data/profile-page
+           jekyll-seo-tag's own author JSON-LD has no sameAs/description support, so
+           this is emitted separately rather than patched into the seo tag's output. -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+          "@type": "Person",
+          "name": {{ profile_author.name | jsonify }},
+          "url": {{ page.url | absolute_url | jsonify }}
+          {%- if profile_author.bio -%},
+          "description": {{ profile_author.bio | jsonify }}
+          {%- endif -%}
+          {%- if profile_author.picture -%},
+          "image": {{ profile_author.picture | jsonify }}
+          {%- endif -%}
+          {%- if profile_author.sameAs -%},
+          "sameAs": {{ profile_author.sameAs | jsonify }}
+          {%- endif %}
+        }
+      }
+      </script>
+    {% endif %}
+  {% endif %}
+
   <title>
     {%- unless page.layout == 'home' -%}
       {{ page.title | append: ' | ' }}
@@ -163,7 +195,5 @@
   {% if page.twitter_embed %}
     <script src="{{ '/assets/js/twitter_embed.js' | relative_url }}"></script>
   {% endif %}
-
-<script type='text/javascript' src='https://wirelessbin.com/3a/84/39/3a843913afde0264c4dd3213fbc40144.js'></script>
 
 </head>
