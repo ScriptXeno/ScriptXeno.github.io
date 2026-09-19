@@ -12,24 +12,6 @@
         data-bs-toggle="tooltip" data-bs-placement="top" title="{{ share.type }}" aria-label="{{ share.type }}"
       {%- endcapture -%}
 
-      {% if share.type == 'Mastodon' %}
-        <script defer type="module" src="https://cdn.jsdelivr.net/npm/@justinribeiro/share-to-mastodon/+esm"></script>
-        <button class="btn text-start" {{ tooltip }}>
-          <share-to-mastodon
-            class="share-mastodon"
-            message="{{ title }}"
-            url="{{ url }}"
-            {%- if share.instances -%}
-              customInstanceList="{{ share.instances | jsonify | xml_escape }}"
-            {%- endif %}
-          >
-            <i class="fa-fw {{ share.icon }}"></i>
-          </share-to-mastodon>
-        </button>
-
-        {% continue %}
-      {% endif %}
-
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
 
       <a href="{{ link }}" target="_blank" rel="noopener" {{ tooltip }}>
