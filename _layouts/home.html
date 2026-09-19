@@ -71,7 +71,14 @@ refactor: true
 
           <div class="col-md-5">
             {% if eager %}
-              <img src="{{ src }}" alt="{{ alt }}" fetchpriority="high" data-eager="true">
+              {% if post.image.path_sm %}
+                <!-- path_sm's width descriptor (800w) is specific to how that variant was
+                     generated for this post; if path_sm is ever reused on another post, its
+                     real pixel width must be re-verified, not assumed. -->
+                <img src="{{ src }}" srcset="{{ post.image.path_sm }} 800w, {{ src }} 1536w" sizes="(min-width: 768px) 400px, 100vw" alt="{{ alt }}" fetchpriority="high" data-eager="true">
+              {% else %}
+                <img src="{{ src }}" alt="{{ alt }}" fetchpriority="high" data-eager="true">
+              {% endif %}
             {% else %}
               <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
             {% endif %}

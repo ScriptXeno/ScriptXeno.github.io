@@ -7,6 +7,7 @@ categories: [AI Tools, Developer Platforms]
 tags: [GitHub Copilot, Claude, Cursor, ai coding tools, developer productivity, self-hosted, pricing]
 image:
   path: https://scriptxeno.github.io/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked.webp
+  path_sm: https://scriptxeno.github.io/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images/thumb-800w.webp
   alt: "Best AI coding assistants in 2026 compared: GitHub Copilot, Claude Code, and Cursor"
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

@@ -108,6 +108,8 @@
       {% assign _left = _left | replace: 'src="', _src_alt %}
     {% endunless %}
 
+    {% assign _eager = _left contains 'data-eager="true"' %}
+
     {% if _lqip %}
       {% assign _lazyload = false %}
       {% assign _class = _class | append: ' blur' %}
@@ -120,12 +122,16 @@
       <!-- add image placeholder -->
       {% assign _left = _left | replace: 'src=', 'data-src=' | replace: ' lqip=', ' data-lqip="true" src=' %}
 
+    {% elsif _eager %}
+      <!-- Eager (LCP) images load immediately with fetchpriority=high and have no lqip
+           placeholder to swap in, so there's nothing to visually mask with a loading
+           skeleton. Skipping the shimmer class here also sidesteps a real race: the
+           theme's own JS only attaches the "remove shimmer on load" listener once its
+           bundle parses, which can run *after* a fetchpriority=high image has already
+           fired its native load event, leaving the shimmer stuck forever. -->
+      {% assign _lazyload = false %}
     {% else %}
       {% assign _class = _class | append: ' shimmer' %}
-    {% endif %}
-
-    {% if _left contains 'data-eager="true"' %}
-      {% assign _lazyload = false %}
     {% endif %}
 
     <!-- lazy-load images -->
