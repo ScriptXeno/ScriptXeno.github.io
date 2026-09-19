@@ -124,7 +124,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     margin-bottom: 2rem;
 
     li.nav-item {
-      opacity: 0.9;
       width: 100%;
 
       @include mx.pl-pr(1.5rem);

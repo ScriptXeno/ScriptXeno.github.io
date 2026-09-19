@@ -124,6 +124,10 @@
       {% assign _class = _class | append: ' shimmer' %}
     {% endif %}
 
+    {% if _left contains 'data-eager="true"' %}
+      {% assign _lazyload = false %}
+    {% endif %}
+
     <!-- lazy-load images -->
     {% if _lazyload %}
       {% assign _left = _left | append: ' loading="lazy"' %}

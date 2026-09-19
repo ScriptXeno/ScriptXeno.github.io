@@ -61,6 +61,8 @@ refactor: true
 
           {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
 
+          {% assign eager = forloop.first %}
+
           {% assign lqip = null %}
 
           {% if post.image.lqip %}
@@ -68,7 +70,11 @@ refactor: true
           {% endif %}
 
           <div class="col-md-5">
-            <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+            {% if eager %}
+              <img src="{{ src }}" alt="{{ alt }}" fetchpriority="high" data-eager="true">
+            {% else %}
+              <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+            {% endif %}
           </div>
 
           {% assign card_body_col = '7' %}

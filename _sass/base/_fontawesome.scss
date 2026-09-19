@@ -1,0 +1,338 @@
+// Font Awesome Free 6.7.1 -- hand-built subset
+//
+// Replaces the CDN's `all.min.css` (~102 KB CSS + 3 webfonts totalling ~295 KB, the full ~2000-icon
+// free set) with only the glyphs this site actually renders: 30 solid, 7 regular, 22 brand icons,
+// grep-verified across _includes/, _layouts/, _data/, _tabs/ and this mixin. @font-face src paths,
+// font-family names, font-weights and the shared base/utility rules below are copied verbatim from
+// Font Awesome Free 6.7.1's own official all.min.css (fetched from its jsDelivr CDN build) so icons
+// render identically to the CDN bundle. Codepoints came from that same file, not guessed.
+//
+// To add a new icon: look up its codepoint in the real all.min.css, add it to the pyftsubset
+// --unicodes list for the matching style (solid/regular/brands) documented in
+// assets/fonts/fontawesome-subset/, regenerate that one woff2, and add a `.fa-<name>:before` rule
+// below.
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/fontawesome-subset/fa-regular-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/assets/fonts/fontawesome-subset/fa-solid-900.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/assets/fonts/fontawesome-subset/fa-brands-400.woff2') format('woff2');
+}
+
+// `--fa-font-*` shorthands: consumed by mx.prompt() in abstracts/_mixins.scss (the markdown
+// tip/info/warning/danger blockquote icons), which composes them via `font: var(--fa-font-#{style})`
+// instead of the fa-solid/fa-brands classes below.
+:root {
+  --fa-font-solid: normal 900 1em/1 'Font Awesome 6 Free';
+  --fa-font-regular: normal 400 1em/1 'Font Awesome 6 Free';
+  --fa-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+}
+
+.fa,
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+}
+
+// bare `.fa` (no style class) defaults to solid, matching Font Awesome's own default
+.fa {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.fas,
+.far,
+.fa-solid,
+.fa-regular {
+  font-family: 'Font Awesome 6 Free';
+}
+
+.fas,
+.fa-solid {
+  font-weight: 900;
+}
+
+.far,
+.fa-regular {
+  font-weight: 400;
+}
+
+.fab,
+.fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-spin {
+  animation: fa-spin 2s infinite linear;
+}
+
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// --- Solid icons (fa-solid / fas / bare fa) ---
+.fa-adjust:before {
+  content: '\f042';
+}
+
+.fa-angle-down:before {
+  content: '\f107';
+}
+
+.fa-angle-left:before {
+  content: '\f104';
+}
+
+.fa-angle-right:before {
+  content: '\f105';
+}
+
+.fa-angle-up:before {
+  content: '\f106';
+}
+
+.fa-archive:before {
+  content: '\f187';
+}
+
+.fa-bars:before {
+  content: '\f0c9';
+}
+
+.fa-check:before {
+  content: '\f00c';
+}
+
+.fa-check-circle:before {
+  content: '\f058';
+}
+
+.fa-close:before,
+.fa-xmark:before {
+  content: '\f00d';
+}
+
+.fa-code:before {
+  content: '\f121';
+}
+
+.fa-cookie:before {
+  content: '\f563';
+}
+
+.fa-envelope:before {
+  content: '\f0e0';
+}
+
+.fa-file-contract:before {
+  content: '\f56c';
+}
+
+.fa-hashtag:before {
+  content: '\0023';
+}
+
+.fa-home:before {
+  content: '\f015';
+}
+
+.fa-info-circle:before {
+  content: '\f05a';
+}
+
+.fa-link:before {
+  content: '\f0c1';
+}
+
+.fa-list-ul:before {
+  content: '\f0ca';
+}
+
+.fa-pen-nib:before {
+  content: '\f5ad';
+}
+
+.fa-rss:before {
+  content: '\f09e';
+}
+
+.fa-search:before {
+  content: '\f002';
+}
+
+.fa-spinner:before {
+  content: '\f110';
+}
+
+.fa-stream:before {
+  content: '\f550';
+}
+
+.fa-tag:before {
+  content: '\f02b';
+}
+
+.fa-tags:before {
+  content: '\f02c';
+}
+
+.fa-thumbtack:before {
+  content: '\f08d';
+}
+
+.fa-user-shield:before {
+  content: '\f505';
+}
+
+// --- Regular icons (fa-regular / far) ---
+.fa-calendar:before {
+  content: '\f133';
+}
+
+.fa-circle:before {
+  content: '\f111';
+}
+
+.fa-clipboard:before {
+  content: '\f328';
+}
+
+.fa-file-code:before {
+  content: '\f1c9';
+}
+
+.fa-folder:before {
+  content: '\f07b';
+}
+
+.fa-folder-open:before {
+  content: '\f07c';
+}
+
+// --- Brand icons (fa-brands / fab) ---
+.fa-github:before {
+  content: '\f09b';
+}
+
+.fa-linkedin:before {
+  content: '\f08c';
+}
+
+.fa-x-twitter:before {
+  content: '\e61b';
+}
+
+.fa-square-x-twitter:before {
+  content: '\e61a';
+}
+
+.fa-mastodon:before {
+  content: '\f4f6';
+}
+
+.fa-threads:before {
+  content: '\e618';
+}
+
+.fa-square-threads:before {
+  content: '\e619';
+}
+
+.fa-reddit:before {
+  content: '\f1a1';
+}
+
+.fa-square-reddit:before {
+  content: '\f1a2';
+}
+
+.fa-bluesky:before {
+  content: '\e671';
+}
+
+.fa-weibo:before {
+  content: '\f18a';
+}
+
+.fa-telegram:before {
+  content: '\f2c6';
+}
+
+.fa-twitch:before {
+  content: '\f1e8';
+}
+
+.fa-pinterest:before {
+  content: '\f0d2';
+}
+
+.fa-instagram:before {
+  content: '\f16d';
+}
+
+.fa-facebook-square:before {
+  content: '\f082';
+}
+
+.fa-medium:before {
+  content: '\f23a';
+}
+
+.fa-dev:before {
+  content: '\f6cc';
+}
+
+.fa-quora:before {
+  content: '\f2c4';
+}
+
+.fa-codepen:before {
+  content: '\f1cb';
+}
+
+.fa-behance:before {
+  content: '\f1b4';
+}
+
+.fa-stack-overflow:before {
+  content: '\f16c';
+}
