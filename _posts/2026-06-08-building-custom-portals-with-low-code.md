@@ -6,7 +6,7 @@ date: 2026-06-08
 categories: [Vibe Coding, Developer Platforms, news]
 tags: [Low-code development, Custom business portals, business process automation, internal tools]
 image:
-  path: https://scriptxeno.github.io/2026-06-08-building-custom-portals-with-low-code/2026-06-08-building-custom-portals-with-low-code.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-08-building-custom-portals-with-low-code@main/2026-06-08-building-custom-portals-with-low-code.webp
   alt: Every growing business eventually hits the same wall.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

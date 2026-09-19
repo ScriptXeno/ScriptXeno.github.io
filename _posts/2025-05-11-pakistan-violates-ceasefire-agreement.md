@@ -5,7 +5,7 @@ date: 2025-05-11
 categories: [Politics, South Asia, Conflict & Peace]
 tags: [india, pakistan, kashmir, ceasefire, nuclear tensions, line of control, indus waters treaty]
 image:
-  path: https://scriptxeno.github.io/2025-05-11-pakistan-violates-ceasefire-agreement-images/1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-11-pakistan-violates-ceasefire-agreement-images@main/1.webp
   alt: "India-Pakistan Ceasefire Agreement"
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 
@@ -16,7 +16,7 @@ The fragile relationship between India and Pakistan took a pivotal turn on **May
 
 ## Ceasefire Agreement Announced
 
-![LOC](https://scriptxeno.github.io/2025-05-11-pakistan-violates-ceasefire-agreement-images/loc.webp){:.shadow}
+![LOC](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-11-pakistan-violates-ceasefire-agreement-images@main/loc.webp){:.shadow}
 
 In a surprising development, military leaders from both India and Pakistan agreed to an **immediate halt to all hostilities** along the disputed **Line of Control (LoC)**. The ceasefire, which started at **17:00 IST (11:30 GMT)**, was the result of international diplomatic pressure.
 
@@ -42,7 +42,7 @@ According to a [statement from the U.S. Department of State](https://www.state.g
 
 ## Underlying Issues Still Simmering
 
-![Image of Region](https://scriptxeno.github.io/2025-05-11-pakistan-violates-ceasefire-agreement-images/pak-tank.webp){:.shadow}
+![Image of Region](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-11-pakistan-violates-ceasefire-agreement-images@main/pak-tank.webp){:.shadow}
 
 Although the ceasefire brought hope, key issues remained unresolved:
 
@@ -62,6 +62,6 @@ Security analysts warned at the time that the situation remained fragile, pointi
 
 ## Final Thoughts
 
-![Final Thoughts](https://scriptxeno.github.io/2025-05-11-pakistan-violates-ceasefire-agreement-images/cf.webp){:.shadow}
+![Final Thoughts](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-11-pakistan-violates-ceasefire-agreement-images@main/cf.webp){:.shadow}
 
 The May 10, 2025 ceasefire held past its shaky first hours, but it did not resolve the underlying disputes. The Indus Waters Treaty suspension, the trade and visa restrictions, and the deeper political disagreements between the two nuclear-armed neighbors all remained unsettled in the ceasefire's immediate aftermath, a reminder that a halt to shelling and a lasting peace are not the same thing.

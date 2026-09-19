@@ -5,7 +5,7 @@ date: 2025-05-11
 categories: [news, world economy, South Asia, Politics]
 tags: [IMF, pakistan, Climate Resilience Fund, Global Economy, South Asia, india-pakistan-relations, Shehbaz Sharif, Cross-border Tensions, $7B Program, Economic Stability, International Relations, Kashmir Conflict, India Concerns, Debt Financing]
 image:
-  path: https://scriptxeno.github.io/2025-05-11-imf-approves-7-billion-loan-for-pakistan-images/1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-11-imf-approves-7-billion-loan-for-pakistan-images@main/1.webp
   alt: IMF approves $7 billion loan to Pakistan amid economic stabilization efforts
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

@@ -6,7 +6,7 @@ date: 2026-09-12
 categories: [Self-Hosting, Email Marketing]
 tags: [self-hosted email, bulk email, dns, dkim, dmarc, spf, docker, open-source, billionmail]
 image:
-  path: https://scriptxeno.github.io/self-host-billionmail-bulk-email-guide-images/self-host-billionmail-bulk-email-guide.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/self-host-billionmail-bulk-email-guide-images@main/self-host-billionmail-bulk-email-guide.webp
   alt: "A self-hosted mail server pipeline: DNS and authentication checks flowing into a server stack and out as verified email"
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

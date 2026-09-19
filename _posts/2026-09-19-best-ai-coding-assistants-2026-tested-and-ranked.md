@@ -6,8 +6,8 @@ date: 2026-09-19
 categories: [AI Tools, Developer Platforms]
 tags: [GitHub Copilot, Claude, Cursor, ai coding tools, developer productivity, self-hosted, pricing]
 image:
-  path: https://scriptxeno.github.io/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked.webp
-  path_sm: https://scriptxeno.github.io/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images/thumb-800w.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images@main/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked.webp
+  path_sm: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images@main/thumb-800w.webp
   alt: "Best AI coding assistants in 2026 compared: GitHub Copilot, Claude Code, and Cursor"
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---
@@ -71,7 +71,7 @@ Cline and [Kilo Code](https://kilo.ai/articles/coding-agents-for-vscode) are VS 
 
 We didn't want this to just be our own opinion, so we cross-checked our results against independent benchmarks, published third-party reviews, and real usage data from outside ScriptXeno.
 
-![AI coding assistants 2026: developer satisfaction, real usage volume, and team pricing compared](https://scriptxeno.github.io/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images/comparison-chart.webp){:.shadow}
+![AI coding assistants 2026: developer satisfaction, real usage volume, and team pricing compared](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-09-19-best-ai-coding-assistants-2026-tested-and-ranked-images@main/comparison-chart.webp){:.shadow}
 
 On formal benchmarks, [Princeton's Holistic Agent Leaderboard](https://hal.cs.princeton.edu/) (HAL), an independent academic evaluation platform, has Claude Code running on Claude Opus 4.5 at 77.8% accuracy on CORE-Bench Hard, a scientific-reproduction coding benchmark, at a measured real cost of $87.16 per run. Neither Cursor nor Copilot currently has a submitted entry on that specific benchmark, so we can't make a direct three-way comparison there. Separately, the 97.0% figure we cited earlier on SWE-bench Verified measures the underlying Claude Opus 5 model, not the Claude Code product wrapper specifically — worth keeping distinct, since a coding agent's real-world behavior depends on more than the model it's built on.
 

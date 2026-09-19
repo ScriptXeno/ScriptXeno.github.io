@@ -6,7 +6,7 @@ date: 2026-06-12
 categories: [Chatbots, AI Agents, AI]
 tags: [agentic ai, Small business AI automation, AI agents vs chatbots, Business process automation with AI]
 image:
-  path: https://scriptxeno.github.io/2026-06-12-agentic-ai-small-business-workflows/2026-06-12-agentic-ai-small-business-workflows.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-12-agentic-ai-small-business-workflows@main/2026-06-12-agentic-ai-small-business-workflows.webp
   alt: Artificial intelligence has evolved far beyond simple chatbots
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

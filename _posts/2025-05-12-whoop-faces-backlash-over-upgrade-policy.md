@@ -6,7 +6,7 @@ date: 2025-05-12
 categories: [Technology, Wearables, news]
 tags: [Whoop, Whoop 5.0, wearable tech, subscription model, customer feedback, tech-news, hardware upgrade, EKG sensor, user backlash, Reddit feedback, TechCrunch Sessions, AI conference, tech customer service, health tech]
 image:
-  path: https://scriptxeno.github.io/2025-05-12-whoop-faces-backlash-over-upgrade-policy-images/2025-05-12-whoop-faces-backlash-over-upgrade-policy-images.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-12-whoop-faces-backlash-over-upgrade-policy-images@main/2025-05-12-whoop-faces-backlash-over-upgrade-policy-images.webp
   alt: Whoop 5.0 fitness tracker upgrade controversy
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

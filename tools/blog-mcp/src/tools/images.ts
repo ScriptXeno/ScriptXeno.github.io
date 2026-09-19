@@ -24,6 +24,14 @@ function pagesUrlFor(repo: string, filename?: string): string {
   return filename ? base + filename : base;
 }
 
+/** jsDelivr's GitHub CDN mirror: same file, but served with long-lived cache headers
+ * (public, max-age=604800) instead of GitHub Pages' fixed 600s. Post images are immutable
+ * once published, so there's no staleness risk from jsDelivr's branch-cache lag. */
+function jsdelivrUrlFor(repo: string, filename?: string): string {
+  const base = `https://cdn.jsdelivr.net/gh/${owner()}/${repo}@main/`;
+  return filename ? base + filename : base;
+}
+
 /** Resolves the source image bytes from whichever input was actually given: `imageData`
  * (base64 — e.g. an image attached directly in a chat turn, with no local file involved)
  * takes precedence when both are present, since it's the more explicit, freshest input. */
@@ -115,8 +123,9 @@ export function registerImageTools(server: McpServer) {
       }
 
       return textResult({
-        pngUrl: pagesUrlFor(repo, `${name}.png`),
-        webpUrl: pagesUrlFor(repo, `${name}.webp`),
+        pngUrl: jsdelivrUrlFor(repo, `${name}.png`),
+        webpUrl: jsdelivrUrlFor(repo, `${name}.webp`),
+        pagesUrl: pagesUrlFor(repo, `${name}.webp`),
         lqip: STATIC_LQIP,
       });
     }

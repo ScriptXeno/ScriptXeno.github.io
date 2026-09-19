@@ -6,7 +6,7 @@ date: 2025-05-20
 categories: [AI, tools, news, github]
 tags: [ai tools, developer-tools, github, python, open-source, GitIngest, LLM Integration, codebase analysis, code summarization, Git workflow, GitHub integration, docker, Python CLI tools, prompt engineering]
 image:
-  path: https://scriptxeno.github.io/2025-05-20-all-about-gitingest-images/2025-05-20-all-about-gitingest.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-20-all-about-gitingest-images@main/2025-05-20-all-about-gitingest.webp
   alt: Banner Art By Nakshatra Ranjan Saha
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

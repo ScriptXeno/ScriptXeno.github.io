@@ -6,7 +6,7 @@ date: 2026-06-17
 categories: [Vibe Coding, AI Agents, AI]
 tags: [Claude Code Unlimited, Claude Code Unlimited 2026, Claude Max Alternative, Opencode Zen, Opencode Zen Setup, Claude Code Configuration, Claude Code settings.json, Anthropic Compatible API, Claude Code Tutorial, Claude Code for Developers, Claude Code with MiniMax M2.5, Free AI Coding Tools, vibe coding, Open Source AI Coding Tools, OpenCode AI, Opencode CLI, Claude Code alternative, AI coding workflow]
 image:
-  path: https://scriptxeno.github.io/2026-06-17-claude-code-unlimited-opencode-zen/2026-06-17-claude-code-unlimited-opencode-zen.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-17-claude-code-unlimited-opencode-zen@main/2026-06-17-claude-code-unlimited-opencode-zen.webp
   alt: Anthropic's Claude Max subscription costs around $200 per month, which puts advanced AI coding workflows out of reach for many developers.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 redirect_from: [/posts/how-to-use-claude-code-unlimited-with-opencode-zen-free-alternative-to-claude-max/]

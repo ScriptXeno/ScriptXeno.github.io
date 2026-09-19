@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, Artificial Intelligence, AI]
 tags: [OpenClaw, ai agents, agentic ai, Small business AI automation, cybersecurity, AI safety, ai agents for smb, AI risk]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-best-openclaw-agentskills-small-business-security-checked-images/2026-08-19-best-openclaw-agentskills-small-business-security-checked.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-best-openclaw-agentskills-small-business-security-checked-images@main/2026-08-19-best-openclaw-agentskills-small-business-security-checked.webp
   alt: A security-verification graphic showing OpenClaw AgentSkills for small business automation (email, invoicing, scheduling, contacts, shopping, analytics, and support) radiating from a central verified security shield icon.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

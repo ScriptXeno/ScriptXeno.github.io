@@ -6,7 +6,7 @@ date: 2025-11-30
 categories: [Technology, news, Email Marketing]
 tags: [open-source, bulk email, github, self-hosted email, email marketing, newsletter tools, smtp, list management]
 image:
-  path: https://scriptxeno.github.io/2025-11-30-best-bulk-email-sender-free-images/2025-11-30-best-bulk-email-sender-free.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-11-30-best-bulk-email-sender-free-images@main/2025-11-30-best-bulk-email-sender-free.webp
   alt: Best Open-Source Bulk Email Sender Tools (GitHub) to Use in 2025–2026
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

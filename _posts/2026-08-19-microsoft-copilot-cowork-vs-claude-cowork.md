@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, AI, news]
 tags: [Microsoft Copilot Cowork, Claude Cowork, Anthropic, Claude, Microsoft 365 E7, pricing, AI news, ai agents for business, subscription model]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-microsoft-copilot-cowork-vs-claude-cowork-images/2026-08-19-microsoft-copilot-cowork-vs-claude-cowork.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-microsoft-copilot-cowork-vs-claude-cowork-images@main/2026-08-19-microsoft-copilot-cowork-vs-claude-cowork.webp
   alt: Two nearly identical agent icons labeled $99 per seat and bundled, showing the Cowork naming confusion
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

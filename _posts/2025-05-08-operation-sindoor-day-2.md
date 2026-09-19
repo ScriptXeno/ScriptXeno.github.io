@@ -6,7 +6,7 @@ author: oceanofanything
 permalink: /operation-sindoor-day-2-8th-may/
 tags: [india, pakistan, operation-sindoor, military-strikes, terrorism, national-security, precision-strikes, kashmir, india-pakistan-relations, counterterrorism, day-2]
 image:
-  path: https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/1.webp
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
   alt: "Operation Sindoor Day 2: Tensions Escalate Between India and Pakistan"
 ---
@@ -55,7 +55,7 @@ Operation Sindoor, India’s recent military action against Pakistan, has entere
 
 ## **The Launch of Operation Sindoor**
 
-![The Launch of Operation Sindoor](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/2.webp){:.shadow}
+![The Launch of Operation Sindoor](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/2.webp){:.shadow}
 
 India’s decision to launch **Operation Sindoor** came in response to a series of provocations from Pakistan, including a missile strike that targeted an Indian border post. The Indian military, including the **Indian Air Force** (IAF) and **Indian Army**, swiftly mobilized, launching precision airstrikes aimed at military targets along the Pakistan-India border.
 
@@ -63,7 +63,7 @@ The operation's objectives are clear: to neutralize Pakistan's military infrastr
 
 ### **Day 2: The Progress of the Operation**
 
-![Day 2: The Progress of the Operation](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/3.webp){:.shadow}
+![Day 2: The Progress of the Operation](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/3.webp){:.shadow}
 
 On the second day of the operation, India’s military has intensified its aerial bombardment of key Pakistani military installations. The **Indian Air Force** has launched airstrikes using **BrahMos missiles** and **Sukhoi Su-30MKI jets**, targeting Pakistani artillery units and supply depots along the border. Ground troops, supported by artillery units, have also conducted operations to secure strategic points.
 
@@ -73,7 +73,7 @@ Meanwhile, Pakistan’s **military spokesperson** has warned India of "retaliati
 
 ## **International Reactions and Diplomacy**
 
-![International Reactions and Diplomacy](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/4.webp){:.shadow}
+![International Reactions and Diplomacy](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/4.webp){:.shadow}
 
 The international community is closely monitoring the conflict, especially as **India** and **Pakistan** are nuclear-armed nations. Global powers such as the **United States**, **China**, and **Russia** have expressed concerns about the potential for escalation, particularly as Pakistan seeks support from its allies.
 
@@ -83,7 +83,7 @@ On the other hand, **Pakistan’s diplomatic position** has been to highlight th
 
 ## **India's Regional Leadership and Strength**
 
-![India's Regional Leadership and Strength](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/5.webp){:.shadow}
+![India's Regional Leadership and Strength](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/5.webp){:.shadow}
 
 The ongoing operation strengthens India’s position as a **regional leader**. India has invested heavily in modernizing its military, from the **S-400 Triumf missile defense system** to advanced air-defense capabilities. The Indian Air Force’s ability to launch targeted strikes with precision and minimal collateral damage is a reflection of its enhanced operational readiness.
 
@@ -93,7 +93,7 @@ Moreover, the operation also showcases India’s deep commitment to its national
 
 ## **Impact on the Kashmir Situation**
 
-![Impact on the Kashmir Situation](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/6.webp){:.shadow}
+![Impact on the Kashmir Situation](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/6.webp){:.shadow}
 
 The situation in **Kashmir** remains at the center of the India-Pakistan conflict, and **Operation Sindoor** has escalated the already volatile situation in the region. While the operation itself is primarily a military one, its ripple effects are felt throughout the region, particularly among the **Kashmiri population**.
 
@@ -101,7 +101,7 @@ For the people of **Jammu and Kashmir**, the daily experience of cross-border sh
 
 ## **Security Measures in Jammu and Kashmir**
 
-![Security Measures in Jammu and Kashmir](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/7.webp){:.shadow}
+![Security Measures in Jammu and Kashmir](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/7.webp){:.shadow}
 
 In response to these developments, the **Jammu and Kashmir government** has imposed **strict security measures**, including the temporary closure of schools, businesses, and roads in certain areas, to mitigate the risk of civilian casualties. There has been an emphasis on ensuring that key infrastructure, including airports and military bases, is secured against potential aerial threats from drones or missile attacks.
 
@@ -109,7 +109,7 @@ The presence of the **Indian Army** in the region has also been significantly in
 
 ## **Role of Technology in Modern Warfare**
 
-![Role of Technology in Modern Warfare](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/8.webp){:.shadow}
+![Role of Technology in Modern Warfare](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/8.webp){:.shadow}
 
 Technology has played a pivotal role in **Operation Sindoor**, with advancements in **drone detection**, **air defense systems**, and **satellite surveillance** offering India a decisive edge. The use of the **S-400 Triumf** missile system is a testament to the country’s commitment to staying ahead in technological warfare.
 
@@ -119,7 +119,7 @@ In addition, **satellite imagery** and **cyber warfare** capabilities allow both
 
 ## **The Role of National Security in Indian Politics**
 
-![The Role of National Security in Indian Politics](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/9.webp){:.shadow}
+![The Role of National Security in Indian Politics](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/9.webp){:.shadow}
 
 **Operation Sindoor** has become a central issue in the current political landscape of India. The government’s ability to demonstrate strong military leadership and ensure national security resonates with the broader electorate. For the ruling government, the operation underscores its commitment to protecting India’s territorial integrity, particularly in a volatile neighborhood.
 
@@ -127,7 +127,7 @@ This has direct political implications as **national security** becomes a key ta
 
 ## **Looking Ahead: The Future of India-Pakistan Relations**
 
-![Looking Ahead: The Future of India-Pakistan Relations](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/11.webp){:.shadow}
+![Looking Ahead: The Future of India-Pakistan Relations](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/11.webp){:.shadow}
 
 As Operation Sindoor enters its subsequent phases, both India and Pakistan must grapple with the broader consequences of their actions. While India has made it clear that it is prepared to defend its sovereignty at all costs, the onus now lies on Pakistan to reconsider its approach to the conflict.
 
@@ -137,7 +137,7 @@ India, for its part, is unlikely to back down in the face of aggression, and as 
 
 ## **Conclusion: Will Operation Sindoor Shift the Regional Balance?**
 
-![Conclusion: Will Operation Sindoor Shift the Regional Balance?](https://scriptxeno.github.io/2025-05-07-operation-sindoor-day-2-images/12.webp){:.shadow}
+![Conclusion: Will Operation Sindoor Shift the Regional Balance?](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-day-2-images@main/12.webp){:.shadow}
 
 **Operation Sindoor Day 2** is a significant turning point in the India-Pakistan conflict, demonstrating India's military preparedness and its readiness to protect its sovereignty. The continued operations show that India will not hesitate to respond to Pakistan’s provocations with force, sending a clear message to its adversary.
 

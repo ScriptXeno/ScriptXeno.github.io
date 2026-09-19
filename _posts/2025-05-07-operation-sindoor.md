@@ -6,7 +6,7 @@ date: 2025-05-07
 categories: [news, military]
 tags: [india, pakistan, operation-sindoor, military-strikes, terrorism, national-security, precision-strikes, kashmir, india-pakistan-relations, counterterrorism]
 image:
-  path: https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/1.webp
   alt: Operation Sindoor
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 permalink: /operation-sindoor-7th-may/
@@ -36,7 +36,7 @@ This post breaks down the operation's objective, execution, and implications for
 
 ## 🎯 What is Operation Sindoor?
 
-![Operation Sindoor](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/2.webp){: .shadow}
+![Operation Sindoor](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/2.webp){: .shadow}
 
 **Operation Sindoor** is a targeted military response by India to eliminate terrorist infrastructure located across the **Line of Control (LoC)** and in **mainland Pakistan**. The operation began days after the Pahalgam tragedy.
 
@@ -46,7 +46,7 @@ This post breaks down the operation's objective, execution, and implications for
 
 ## 🧨 Trigger: The Pahalgam Attack
 
-![The Pahalgam Attack](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/3.webp){: .shadow}
+![The Pahalgam Attack](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/3.webp){: .shadow}
 
 The operation was launched in response to the **April 22, 2025** attack in **Pahalgam**, Jammu and Kashmir. A tourist bus was ambushed by militants.
 
@@ -60,7 +60,7 @@ This terror act shook the nation and was seen as a red line by the Indian admini
 
 ## 🛰️ How the Strikes Were Conducted
 
-![How the Strikes Were Conducted](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/4.webp){: .shadow}
+![How the Strikes Were Conducted](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/4.webp){: .shadow}
 
 The Indian Armed Forces planned the strikes with **surgical precision**:
 
@@ -72,7 +72,7 @@ Indian intelligence confirmed that the locations targeted were being used to **t
 
 ## 🧾 Pakistan's Reaction
 
-![Pakistan's Reaction](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/5.webp){: .shadow}
+![Pakistan's Reaction](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/5.webp){: .shadow}
 
 **Pakistan has denied** any role in the Pahalgam attack and has **condemned India's response**:
 
@@ -87,7 +87,7 @@ Pakistani media reported:
 
 ## 🔥 India’s Stand: "Non-escalatory & Precise"
 
-![India’s Stand](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/6.webp){: .shadow}
+![India’s Stand](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/6.webp){: .shadow}
 
 Indian defense officials reiterated:
 
@@ -95,7 +95,7 @@ Indian defense officials reiterated:
 
 ## 🗺️ Kashmir: The Perpetual Flashpoint
 
-![How the Strikes Were Conducted](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/7.webp){: .shadow}
+![How the Strikes Were Conducted](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/7.webp){: .shadow}
 
 Kashmir continues to be a **hotbed of militancy** and tension:
 
@@ -113,7 +113,7 @@ Kashmir continues to be a **hotbed of militancy** and tension:
 
 ## 🌐 Global Reactions
 
-![Global Reactions](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/8.webp){: .shadow}
+![Global Reactions](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/8.webp){: .shadow}
 
 The international community has called for **calm and dialogue**.
 
@@ -124,7 +124,7 @@ The international community has called for **calm and dialogue**.
 
 ## 🧭 Strategic Takeaways
 
-![Strategic Takeaways](https://scriptxeno.github.io/2025-05-07-operation-sindoor-images/9.webp){: .shadow}
+![Strategic Takeaways](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-07-operation-sindoor-images@main/9.webp){: .shadow}
 
 - Operation Sindoor reasserts **India’s zero-tolerance stance** on terrorism.
 - The Indian Army demonstrated **restraint with precision**, preventing full-blown conflict.

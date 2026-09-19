@@ -6,7 +6,7 @@ date: 2025-05-22
 categories: [N&D Co., Digital Marketing]
 tags: [N&D Co., digital marketing, SEO advertising, digital display advertising]
 image:
-  path: https://scriptxeno.github.io/2025-09-19-why-you-need-digital-marketing-in-2025-images/2025-09-19-why-you-need-digital-marketing-in-2025.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-09-19-why-you-need-digital-marketing-in-2025-images@main/2025-09-19-why-you-need-digital-marketing-in-2025.webp
   alt: Why Digital Marketing Is Essential for Business Growth in 2025
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

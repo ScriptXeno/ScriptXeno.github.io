@@ -6,7 +6,7 @@ date: 2025-11-15
 categories: [chatgpt, india, AI]
 tags: [ChatGPT Go Free India, ChatGPT Go Pricing India, ChatGPT Go Features, GPT-5 India Access, AI Tools India, Free AI Tools 2025, OpenAI India Promotion, AI Content Creation India, AI for Entrepreneurs, Freelancer Tech Tools, AI for Small Business, Productivity Tools India, Ai-powered Content Creation, ChatGPT for Students, ChatGPT for Freelancers]
 image:
-  path: https://scriptxeno.github.io/2025-11-15-chatgpt-go-free-in-india/2025-11-15-chatgpt-go-free-in-india.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-11-15-chatgpt-go-free-in-india@main/2025-11-15-chatgpt-go-free-in-india.webp
   alt: 12 months of ChatGPT Go for free
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

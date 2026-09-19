@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Tools, AI, Developer Platforms]
 tags: [Kimi K3, Kimi Code CLI, Moonshot AI, Claude Code alternative, OpenCode, AI Coding Agent, china, benchmark, pricing, Open source AI coding tool]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-kimi-k3-kimi-code-cli-vs-claude-code-images/2026-08-19-kimi-k3-kimi-code-cli-vs-claude-code.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-kimi-k3-kimi-code-cli-vs-claude-code-images@main/2026-08-19-kimi-k3-kimi-code-cli-vs-claude-code.webp
   alt: Price comparison bar chart showing Kimi K3's lower per-million-token cost against Claude
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

@@ -6,7 +6,7 @@ date: 2025-11-27
 categories: [Technology, news, AI]
 tags: [Openvibe, RSS, Social Media, Mastodon, Bluesky, Threads, Open Web, News, Aggregators, ai ]
 image:
-  path: https://scriptxeno.github.io/2025-11-27-openvibe-combines-news-and-social-media-images/2025-11-27-openvibe-combines-news-and-social-media.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-11-27-openvibe-combines-news-and-social-media-images@main/2025-11-27-openvibe-combines-news-and-social-media.webp
   alt: Openvibe Combines News and Social Media in One App
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

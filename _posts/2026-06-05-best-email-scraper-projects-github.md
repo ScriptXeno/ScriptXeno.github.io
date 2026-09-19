@@ -6,7 +6,7 @@ date: 2026-06-05
 categories: [automation, email-scraping]
 tags: [email-scraper, automation, python, web-crawler, marketing, data-collection, lead-generation, mailgrab, email-harvesting, contact-extraction]
 image:
-  path: https://scriptxeno.github.io/best-email-scraper-projects-github/best-email-scraper-projects-github.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/best-email-scraper-projects-github@main/best-email-scraper-projects-github.webp
   alt: The best projects focus not only on extracting emails but also on ensuring data quality and usability
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

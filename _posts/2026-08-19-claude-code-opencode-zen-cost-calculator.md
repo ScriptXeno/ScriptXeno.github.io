@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [Vibe Coding, AI Agents, AI]
 tags: [Opencode Zen, Claude Max Alternative, Claude, Anthropic, pricing, ai coding tools, vibe coding, OpenCode AI]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-claude-code-opencode-zen-cost-calculator-images/2026-08-19-claude-code-opencode-zen-cost-calculator.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-claude-code-opencode-zen-cost-calculator-images@main/2026-08-19-claude-code-opencode-zen-cost-calculator.webp
   alt: A cost comparison graphic contrasting Claude Max's flat monthly subscription with Opencode Zen's pay-as-you-go pricing that increases with usage.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

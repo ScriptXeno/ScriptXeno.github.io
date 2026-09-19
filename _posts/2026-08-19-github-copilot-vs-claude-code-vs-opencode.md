@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, AI, Developer Platforms]
 tags: [GitHub Copilot, OpenCode AI, AI coding assistant, developer productivity, ai coding tools, OpenCode vs GitHub Copilot, pricing]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-github-copilot-vs-claude-code-vs-opencode-images/2026-08-19-github-copilot-vs-claude-code-vs-opencode.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-github-copilot-vs-claude-code-vs-opencode-images@main/2026-08-19-github-copilot-vs-claude-code-vs-opencode.webp
   alt: Price-scale comparison graphic for GitHub Copilot, Claude Code, and OpenCode
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

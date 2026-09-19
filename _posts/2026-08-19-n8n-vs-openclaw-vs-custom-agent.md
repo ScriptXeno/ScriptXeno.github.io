@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, automation, AI]
 tags: [OpenClaw, n8n, automation, business process automation]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-n8n-vs-openclaw-vs-custom-agent-images/2026-08-19-n8n-vs-openclaw-vs-custom-agent.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-n8n-vs-openclaw-vs-custom-agent-images@main/2026-08-19-n8n-vs-openclaw-vs-custom-agent.webp
   alt: Three diverging path graphic comparing n8n, OpenClaw, and a custom agent
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

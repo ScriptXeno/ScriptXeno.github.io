@@ -6,7 +6,7 @@ date: 2026-06-08
 categories: [Vibe Coding, Developer Platforms, news]
 tags: [agentic ai, smb automation tools, ai invoicing automation, customer follow up automation, cross app automation, ai workforce]
 image:
-  path: https://scriptxeno.github.io/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows@main/2026-06-08-silicon-workforce-agentic-ai-running-smb-workflows.webp
   alt: Imagine hiring a team member who never sleeps, never forgets a task, works across every software tool in your company, and costs a fraction of a full-time employee.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, automation]
 tags: [n8n, MCP, automation, persistent memory for ai agents, Claude]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-n8n-ai-agent-node-rebuild-august-2026-images/2026-08-19-n8n-ai-agent-node-rebuild-august-2026.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-n8n-ai-agent-node-rebuild-august-2026-images@main/2026-08-19-n8n-ai-agent-node-rebuild-august-2026.webp
   alt: A row of five wrench and gear icons with one highlighted and checked, representing incremental fixes
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

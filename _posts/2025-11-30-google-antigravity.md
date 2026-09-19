@@ -6,7 +6,7 @@ date: 2025-11-30
 categories: [Technology, news, AI]
 tags: [Antigravity, Google, AI IDE, Gemini 3 Pro, Claude Sonnet 4.5, GPT-OSS, VS Code fork, vibe coding, browser automation, frontend development ]
 image:
-  path: https://scriptxeno.github.io/2025-11-30-google-antigravity-images/2025-11-30-google-antigravity.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-11-30-google-antigravity-images@main/2025-11-30-google-antigravity.webp
   alt: Google Antigravity the AI-first VS Code fork that brings vibe coding to the browser
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

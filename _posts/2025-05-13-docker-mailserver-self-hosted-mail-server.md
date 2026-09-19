@@ -6,7 +6,7 @@ date: 2025-05-13
 categories: [GitHub Projects, Self-Hosting, Email Server]
 tags: [docker, docker-mailserver, self-hosted email, mail server, smtp, imap, email security, linux server, email hosting, dkim, spf, dmarc, postfix, dovecot, opensource, docker-compose, mailserver setup, email privacy, sysadmin, devops, system administration, email configuration, tls ssl, ldap integration, spam filtering]
 image:
-  path: https://scriptxeno.github.io/2025-05-13-docker-mailserver-self-hosted-mail-server-images/2025-05-13-docker-mailserver-self-hosted-mail-server.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-13-docker-mailserver-self-hosted-mail-server-images@main/2025-05-13-docker-mailserver-self-hosted-mail-server.webp
   alt: docker-mailserver secure self-hosted mail server with docker
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

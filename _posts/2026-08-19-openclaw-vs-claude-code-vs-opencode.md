@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, Artificial Intelligence, AI]
 tags: [OpenClaw, OpenCode, OpenCode AI, OpenCode vs Claude Code, Claude Code alternative, agentic ai, ai agents, autonomous ai agents]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-openclaw-vs-claude-code-vs-opencode-images/2026-08-19-openclaw-vs-claude-code-vs-opencode.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-openclaw-vs-claude-code-vs-opencode-images@main/2026-08-19-openclaw-vs-claude-code-vs-opencode.webp
   alt: Three-column comparison graphic for OpenClaw, Claude Code, and OpenCode
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

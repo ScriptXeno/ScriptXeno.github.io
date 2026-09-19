@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, AI, productivity]
 tags: [Claude Code Tutorial, AI coding workflow, ai coding tools, Chirpy markdown, GitHub Pages, Claude, developer productivity, AI Assisted Development Tools]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-how-i-run-this-blog-claude-code-mcp-server-images/2026-08-19-how-i-run-this-blog-claude-code-mcp-server.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-how-i-run-this-blog-claude-code-mcp-server-images@main/2026-08-19-how-i-run-this-blog-claude-code-mcp-server.webp
   alt: Diagram of the five-step Claude Code and MCP server publishing pipeline used to run this blog
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

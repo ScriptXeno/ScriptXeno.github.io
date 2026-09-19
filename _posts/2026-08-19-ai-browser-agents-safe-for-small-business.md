@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, cybersecurity, AI Tools]
 tags: [ai agents, AI prompt injection, AI risk, AI safety, browser automation, cybersecurity, Small business AI automation, agentic ai, OpenAI, Perplexity]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-ai-browser-agents-safe-for-small-business-images/2026-08-19-ai-browser-agents-safe-for-small-business.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-ai-browser-agents-safe-for-small-business-images@main/2026-08-19-ai-browser-agents-safe-for-small-business.webp
   alt: A browser window with a robot cursor icon inside it next to a cracked shield icon
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

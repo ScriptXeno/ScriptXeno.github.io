@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, cybersecurity, AI]
 tags: [cybersecurity, ai agents, agentic ai, AI safety, AI risk, Vercel, skills.sh, AI supply chain security]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-skills-sh-credential-theft-campaign-checklist-images/2026-08-19-skills-sh-credential-theft-campaign-checklist.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-skills-sh-credential-theft-campaign-checklist-images@main/2026-08-19-skills-sh-credential-theft-campaign-checklist.webp
   alt: A puzzle-piece skill icon with a key being extracted into an open padlock, labeled 1.7 million installs
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

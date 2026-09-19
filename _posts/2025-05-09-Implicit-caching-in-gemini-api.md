@@ -5,7 +5,7 @@ author: oceanofanything
 date: 2025-05-09
 tags: [gemini-api, implicit-caching, google-ai, token-savings, ai-cost-reduction]
 image:
-  path: https://scriptxeno.github.io/2025-05-09-Implicit-caching-in-gemini-api-images/2025-05-09-Implicit-caching-in-gemini-api.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-09-Implicit-caching-in-gemini-api-images@main/2025-05-09-Implicit-caching-in-gemini-api.webp
   alt: Google Gemini API Implicit Caching
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 category: [AI, Google]

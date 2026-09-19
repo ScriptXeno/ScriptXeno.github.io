@@ -6,7 +6,7 @@ date: 2026-06-07
 categories: [Vibe Coding, Developer Platforms, news]
 tags: [AI-powered development, workflow automation, internal tools, business automation, app development costs, rapid prototyping]
 image:
-  path: https://scriptxeno.github.io/2026-06-07-vibe-coding-small-teams-custom-apps-2026/2026-06-07-vibe-coding-small-teams-custom-apps-2026.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-vibe-coding-small-teams-custom-apps-2026@main/2026-06-07-vibe-coding-small-teams-custom-apps-2026.webp
   alt: What if your business could build a custom software application in days instead of months—and save up to 70% of traditional development costs?
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 
@@ -197,7 +197,7 @@ Healthcare professionals, educators, consultants, and service providers are buil
 
 Several platforms are leading the AI-powered development movement.
 
-![Vibe coding app logos.](https://scriptxeno.github.io/2026-06-07-vibe-coding-small-teams-custom-apps-2026/AI_app_builder.webp){: .shadow}
+![Vibe coding app logos.](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-vibe-coding-small-teams-custom-apps-2026@main/AI_app_builder.webp){: .shadow}
 
 Popular categories include:
 

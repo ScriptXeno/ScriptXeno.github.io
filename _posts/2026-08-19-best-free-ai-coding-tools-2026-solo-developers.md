@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Tools, AI, Developer Platforms]
 tags: [Free AI Coding Tools, OpenCode AI, GitHub Copilot, Opencode Zen, Claude Max Alternative]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-best-free-ai-coding-tools-2026-solo-developers-images/2026-08-19-best-free-ai-coding-tools-2026-solo-developers.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-best-free-ai-coding-tools-2026-solo-developers-images@main/2026-08-19-best-free-ai-coding-tools-2026-solo-developers.webp
   alt: Grid of six free AI coding tool tiles for solo developers
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

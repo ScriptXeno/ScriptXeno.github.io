@@ -6,7 +6,7 @@ date: 2025-05-12 12:00:00
 categories: [Tech News, Smartphones, news]
 tags: [Apple, iPhone 2025, iPhone price increase, Apple tariffs, iPhone ultra-thin, iPhone redesign, iPhone glass body, U.S.-China trade war, iPhone X successor, Apple India production, Apple 20th anniversary iPhone, new iPhone features, smartphone industry, Apple supply chain, Apple iPhone price hike, technology news, gadget updates, Apple rumors, curved iPhone, future iPhones, tech tariffs, smartphone manufacturing, Apple innovations]
 image:
-  path: https://scriptxeno.github.io/2025-05-12-upcoming-iphones-may-get-price-hike-images/2025-05-12-upcoming-iphones-may-get-price-hike-images.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-12-upcoming-iphones-may-get-price-hike-images@main/2025-05-12-upcoming-iphones-may-get-price-hike-images.webp
   alt: Apple may increase iPhone prices in 2025 due to tariffs and new features
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

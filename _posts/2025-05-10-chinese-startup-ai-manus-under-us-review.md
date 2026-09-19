@@ -5,7 +5,7 @@ author: oceanofanything
 date: 2025-05-10
 tags: [ai, china, benchmark, startups, national-security, investment, venture-capital]
 image:
-  path: https://scriptxeno.github.io/2025-05-09-chinese-startup-ai-manus-under-us-review-images/2025-05-09-chinese-startup-ai-manus-under-us-review.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-09-chinese-startup-ai-manus-under-us-review-images@main/2025-05-09-chinese-startup-ai-manus-under-us-review.webp
   alt: AI and China
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 twitter_embed: "true"

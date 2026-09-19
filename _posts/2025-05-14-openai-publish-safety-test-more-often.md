@@ -7,7 +7,7 @@ categories: [AI, OpenAI, news, Technology]
 tags: [OpenAI, AI safety, transparency, model evaluation, chatbot, GPT-4o, harmful content, hallucination, jailbreak, AI governance, AI transparency, model updates, AI policy, ethics, AI news, Sam Altman, ChatGPT, AI reliability, AI risk, technology, machine learning, responsible AI, evaluation hub, AI testing, AI incidents, user feedback, alpha phase, ethical AI, technical reports]
 twitter_embed: true
 image:
-  path: https://scriptxeno.github.io/2025-05-14-openai-publish-safety-test-more-often-images/2025-05-14-openai-publish-safety-test-more-often.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-14-openai-publish-safety-test-more-often-images@main/2025-05-14-openai-publish-safety-test-more-often.webp
   alt: OpenAI increases transparency by publishing AI safety test results
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

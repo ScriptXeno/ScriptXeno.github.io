@@ -6,7 +6,7 @@ date: 2026-06-13
 categories: [Vibe Coding, AI Agents, AI]
 tags: [OpenCode, Open Source AI Agent, AI coding assistant, AI software development tools, Agentic AI development, Autonomous coding agent, AI code generation, OpenCode AGENTS.md guide, OpenCode local models, OpenCode with Ollama, OpenCode vs Claude Code, OpenCode vs Cursor, OpenCode vs GitHub Copilot, OpenCode vs Devin, OpenCode vs Windsurf, OpenCode vs Aider, OpenCode vs Goose, Claude Code alternative, Cursor alternative, Best AI coding agent 2026]
 image:
-  path: https://scriptxeno.github.io/2026-06-13-opencode-open-source-ai-agent/2026-06-13-opencode-open-source-ai-agent.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-13-opencode-open-source-ai-agent@main/2026-06-13-opencode-open-source-ai-agent.webp
   alt: Among the most talked-about tools in this category is OpenCode.
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---
@@ -37,7 +37,7 @@ In this comprehensive guide, we'll explore:
 
 ## What Is OpenCode?
 
-![OpenCode](https://scriptxeno.github.io/2026-06-13-opencode-open-source-ai-agent/opencode.webp)
+![OpenCode](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-13-opencode-open-source-ai-agent@main/opencode.webp)
 
 ### Quick Answer
 
@@ -158,7 +158,7 @@ Supported providers include:
 * Local LLMs
 * Dozens of additional providers
 
-![Models](https://scriptxeno.github.io/2026-06-13-opencode-open-source-ai-agent/models.webp)
+![Models](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-13-opencode-open-source-ai-agent@main/models.webp)
 
 OpenCode supports more than 75 model providers and local deployments. This prevents dependence on a single vendor and allows developers to optimize for cost, performance, or privacy.
 
@@ -240,7 +240,7 @@ OpenCode states that it does not store source code or project context on its own
 
 ## OpenCode Architecture
 
-![Models](https://scriptxeno.github.io/2026-06-13-opencode-open-source-ai-agent/usage.webp)
+![Models](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-13-opencode-open-source-ai-agent@main/usage.webp)
 
 OpenCode follows a client-server architecture.
 
@@ -285,7 +285,7 @@ This modular architecture is one reason many developers prefer OpenCode over mon
 
 ## Real-World OpenCode Use Cases
 
-![Models](https://scriptxeno.github.io/2026-06-13-opencode-open-source-ai-agent/benchmark.webp)
+![Models](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-13-opencode-open-source-ai-agent@main/benchmark.webp)
 
 ### Startup MVP Development
 

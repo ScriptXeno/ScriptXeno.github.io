@@ -6,7 +6,7 @@ date: 2025-05-16
 categories: [AI, Generative Video, Technology, Startups, news]
 tags: [AI video, Moonvalley, generative media, video creation, VC funding, Marey model, Asteria, creative technology, copyright, data ethics, video generators, startup-funding, OpenAI, Lightricks, Runway, Genmo, Pika, DeepMind, Adobe Stock, creator rights, storyboard tools, media tech, safeguarding AI, AI filmmaking, content licensing, NSFW filtering, copyright indemnity, film industry disruption, AI regulation, professional production, animation jobs]
 image:
-  path: https://scriptxeno.github.io/2025-05-16-ai-video-startu-lands-53M-images/2025-05-16-ai-video-startu-lands-53M.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-16-ai-video-startu-lands-53M-images@main/2025-05-16-ai-video-startu-lands-53M.webp
   alt: Moonvalley AI video startup secures funding and innovates in video creation
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

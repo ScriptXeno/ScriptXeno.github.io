@@ -6,7 +6,7 @@ date: 2025-05-08 10:00:00
 categories: [news, national-security]
 tags: [india, pakistan, operation-sindoor, military-strikes, terrorism, national-security, precision-strikes, kashmir, counterterrorism, operation-abhyaas, civil-defence, mock-drill, may-7-2025, maharashtra, delhi, blackout-drill, air-raid-sirens, emergency-preparedness, mha, ndma, pahalgam-attack, india-pakistan-tensions, evacuation-drill, public-safety, disaster-management, home-guards, ncc, nss, nyks, school-drills, urban-safety, rural-preparedness, communication-systems, control-rooms, shadow-control-rooms, air-force-coordination, blackout-measures, camouflaging-installations, evacuation-plans, civil-defence-districts, day-2]
 image:
-  path: https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/1.webp
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
   alt: "Operation Abhyaas 2025 Civil Defence Mock Drill in India"
 ---
@@ -46,7 +46,7 @@ The impetus for Operation Abhyaas was the tragic **Pahalgam terror attack** on *
 
 ## Objectives of the Drill
 
-![Objectives of the Drill](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/2.webp){:.shadow}
+![Objectives of the Drill](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/2.webp){:.shadow}
 
 Operation Abhyaas was designed with multiple objectives:
 
@@ -58,7 +58,7 @@ Operation Abhyaas was designed with multiple objectives:
 
 ## Nationwide Participation
 
-![Nationwide Participation](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/3.webp){:.shadow}
+![Nationwide Participation](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/3.webp){:.shadow}
 
 The drill witnessed participation from various sectors:
 
@@ -68,7 +68,7 @@ The drill witnessed participation from various sectors:
 
 ## Maharashtra: A Closer Look
 
-![A Closer Look](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/4.webp){:.shadow}
+![A Closer Look](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/4.webp){:.shadow}
 
 Maharashtra played a pivotal role in Operation Abhyaas, with drills conducted in multiple cities categorized based on sensitivity:
 
@@ -139,7 +139,7 @@ The public largely responded positively, recognizing the importance of preparedn
 
 ### Why Was Operation Abhyaas Necessary?
 
-![A Closer Look](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/5.webp){:.shadow}
+![A Closer Look](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/5.webp){:.shadow}
 
 In the ever-evolving landscape of global and regional security, **mock drills like Operation Abhyaas are not just precautionary—they're vital**. India, with its diverse geography and dense urban populations, faces a wide array of potential threats ranging from natural disasters to terrorist activities and even wartime scenarios. The country’s expanding infrastructure, strategic installations, and critical public zones demand robust preparedness.
 
@@ -156,7 +156,7 @@ With geopolitical tensions rising and urban centres becoming high-risk targets, 
 
 ### The Attacks That Triggered the Nationwide Mock Drill
 
-![Nationwide Mock Drill](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/6.webp){:.shadow}
+![Nationwide Mock Drill](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/6.webp){:.shadow}
 
 The catalyst for Operation Abhyaas was a **deadly terror attack in Pahalgam, Jammu & Kashmir**, on **April 22, 2025**. Militants ambushed a convoy carrying pilgrims and security personnel, resulting in **26 fatalities** and many injuries. This brazen attack not only shocked the nation but also exposed vulnerabilities in soft-target protection and emergency response.
 
@@ -172,7 +172,7 @@ These incidents underscore the urgent need for a **proactive, all-India civil de
 
 ### Was Operation Abhyaas Successful?
 
-![Operation Abhyaas Successful?](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/7.webp){:.shadow}
+![Operation Abhyaas Successful?](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/7.webp){:.shadow}
 
 Yes, **Operation Abhyaas**, the nationwide civil defence mock drill conducted on May 7, 2025, was deemed a success across India. The exercise was executed in all 244 designated civil defence districts, encompassing major metropolitan areas, strategic installations, and vulnerable regions .([The Indian Express][1], [Wikipedia][2])
 
@@ -199,7 +199,7 @@ Overall, the successful execution of Operation Abhyaas across various states and
 
 ## 🧭 Conclusion: A Nation Gearing Up for Tomorrow’s Threats
 
-![Conclusion](https://scriptxeno.github.io/2025-05-08-mock-drill-in-india-on-7th-may-images/8.webp){:.shadow}
+![Conclusion](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-08-mock-drill-in-india-on-7th-may-images@main/8.webp){:.shadow}
 
 Operation Abhyaas 2025 wasn’t just a mock drill—it was a **critical step in India's preparedness strategy**, executed with a strong sense of urgency, coordination, and public engagement. Initiated across **244 civil defence districts**, including major metros like Delhi, Mumbai, Hyderabad, and states like Himachal Pradesh, this large-scale simulation gave us a clear snapshot of **India’s disaster and terror-response readiness**.
 

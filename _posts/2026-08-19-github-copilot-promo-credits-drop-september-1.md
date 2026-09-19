@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, AI, Developer Platforms]
 tags: [GitHub Copilot, AI Credits, usage-based billing, pricing, developer productivity, AI Coding Agent, budget management, ai coding tools]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-github-copilot-promo-credits-drop-september-1-images/2026-08-19-github-copilot-promo-credits-drop-september-1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-github-copilot-promo-credits-drop-september-1-images@main/2026-08-19-github-copilot-promo-credits-drop-september-1.webp
   alt: Bar chart showing GitHub Copilot's Business tier credits dropping from 3,000 to 1,900 on September 1
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

@@ -6,7 +6,7 @@ date: 2025-05-06 10:00:00
 categories: [news, AI]
 tags: [ai, ai-startups, creative-ai, tech-news, image-generation, startup-funding, generative-ai, branding, ai-models, recraft, dall·e, midjourney]
 image:
-  path: https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/1.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/1.webp
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
   alt: "Recraft AI"
 ---
@@ -64,7 +64,7 @@ Meet **Recraft**, the stealthy AI powerhouse that’s redefining the future of v
 
 ## **🧠 The Rise of a Silent Giant in AI Imagery**
 
-![Recraft AI](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/2.webp){: .shadow .rounded}
+![Recraft AI](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/2.webp){: .shadow .rounded}
 
 ### **Introduction to the Unseen Challenger**
 
@@ -82,7 +82,7 @@ With zero fanfare, this AI model beat industry giants on the **Artificial Analys
 
 ## **Behind the Curtains – Meet Recraft**
 
-![Meet Recraft](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/3.webp){: .shadow .rounded}
+![Meet Recraft](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/3.webp){: .shadow .rounded}
 
 ### **Founding Story and Vision**
 
@@ -96,7 +96,7 @@ What makes this story even more intriguing? Recraft is led by a solo female foun
 
 ## **Cracking the Code – How Recraft Beat Industry Titans**
 
-![How Recraft Beat Industry Titans](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/4.webp){: .shadow .rounded}
+![How Recraft Beat Industry Titans](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/4.webp){: .shadow .rounded}
 
 ### **The Benchmark That Turned Heads**
 
@@ -114,7 +114,7 @@ The red panda metaphor works: it's stealthy, effective, and hard not to love. Th
 
 ## **From Models to Marketing — Recraft’s Niche Strength**
 
-![Recraft’s Niche Strength](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/5.webp){: .shadow .rounded}
+![Recraft’s Niche Strength](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/5.webp){: .shadow .rounded}
 
 ### **Tailor-Made Visuals for Branding**
 
@@ -128,7 +128,7 @@ Those platforms might generate stunning art, but when it comes to practicality i
 
 ## **Funding the Future — \$30 Million Strong**
 
-![Funding the Future](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/6.webp){: .shadow .rounded}
+![Funding the Future](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/6.webp){: .shadow .rounded}
 
 ### **Who’s Backing Recraft?**
 
@@ -142,7 +142,7 @@ With **\$5 million in annual recurring revenue** and **over 4 million users**, R
 
 ## **The Tech Stack and Strategy**
 
-![The Tech Stack and Strategy](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/7.webp){: .shadow .rounded}
+![The Tech Stack and Strategy](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/7.webp){: .shadow .rounded}
 
 ### **Building Models from Scratch**
 
@@ -156,7 +156,7 @@ They’re not just taking on Midjourney or Adobe. Recraft is shaping up to chall
 
 ## **Recraft vs. Canva and Adobe Firefly**
 
-![Recraft vs. Canva and Adobe Firefly](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/8.webp){: .shadow .rounded}
+![Recraft vs. Canva and Adobe Firefly](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/8.webp){: .shadow .rounded}
 
 ### **What Sets It Apart in Brand-Based AI Design**
 
@@ -170,7 +170,7 @@ No more clunky edits. Recraft places logos exactly where they need to be—and t
 
 ## **The Human Behind the Machine — Anna Veronika Dorogush**
 
-![Anna Veronika Dorogush](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/9.webp){: .shadow .rounded}
+![Anna Veronika Dorogush](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/9.webp){: .shadow .rounded}
 
 ### **From Modeling to Machine Learning**
 
@@ -184,7 +184,7 @@ She’s seen the grind from all angles. "Hard work isn’t enough—you need to 
 
 ## **Recraft’s Place in the Future of Generative AI**
 
-![Future of Generative AI](https://scriptxeno.github.io/2025-05-06-secret-ai-model-crushed-dall-e-images/10.webp){: .shadow .rounded}
+![Future of Generative AI](https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-06-secret-ai-model-crushed-dall-e-images@main/10.webp){: .shadow .rounded}
 
 ### **How It’s Shaping the Design Industry**
 

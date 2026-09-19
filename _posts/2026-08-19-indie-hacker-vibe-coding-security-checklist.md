@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [Vibe Coding, AI, cybersecurity]
 tags: [vibe coding, AI safety, Vibe Coding Tools, AI risk, startups, Claude Code for Indie Hackers, AI code generation, app development]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-indie-hacker-vibe-coding-security-checklist-images/2026-08-19-indie-hacker-vibe-coding-security-checklist.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-indie-hacker-vibe-coding-security-checklist-images@main/2026-08-19-indie-hacker-vibe-coding-security-checklist.webp
   alt: Checklist graphic of six vibe-coding security categories for indie hackers
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

@@ -6,7 +6,7 @@ date: 2026-01-10
 categories: [Policy, Economics, Health]
 tags: [india, cigarette tax, tobacco control, public health, excise duty, GST, WHO guidelines, smoking cessation, government revenue, health economics, tobacco taxation, fiscal policy]
 image:
-  path: https://scriptxeno.github.io/2026-01-10-ricing-prices-of-cigarettes-images/2026-01-10-ricing-prices-of-cigarettes.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-01-10-ricing-prices-of-cigarettes-images@main/2026-01-10-ricing-prices-of-cigarettes.webp
   alt: Rising Cigarette Prices in India Causes and Economic Impacts
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

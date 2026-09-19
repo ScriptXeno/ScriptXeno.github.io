@@ -6,7 +6,7 @@ date: 2025-05-12 13:00:00
 categories: [Innovation, Green Technology, Climate, news]
 tags: [Superwood, InventWood, sustainable materials, green construction, eco-friendly wood, stronger than steel, Liangbing Hu, cellulose nanocrystals, fire-resistant wood, structural beams, timber innovation, climate tech, construction materials, materials science, Series A funding, compressed wood, wood engineering, carbon footprint, high-performance wood, smart materials]
 image:
-  path: https://scriptxeno.github.io/2025-05-12-next-gen-wood-stronger-than-wood-images/2025-05-12-next-gen-wood-stronger-than-wood-images.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-12-next-gen-wood-stronger-than-wood-images@main/2025-05-12-next-gen-wood-stronger-than-wood-images.webp
   alt: Superwood sample from InventWood, stronger than steel
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 

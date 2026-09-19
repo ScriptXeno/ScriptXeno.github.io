@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI, AI Agents, Vibe Coding]
 tags: [Claude, Anthropic, Claude Max Alternative, Claude Code Unlimited, pricing, subscription model, AI news]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-claude-code-weekly-limit-boost-ends-images/2026-08-19-claude-code-weekly-limit-boost-ends.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-claude-code-weekly-limit-boost-ends-images@main/2026-08-19-claude-code-weekly-limit-boost-ends.webp
   alt: Weekly usage limit gauge showing the boost extended from August 19 to August 31
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

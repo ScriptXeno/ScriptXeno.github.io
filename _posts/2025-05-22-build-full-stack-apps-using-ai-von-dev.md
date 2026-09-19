@@ -6,7 +6,7 @@ date: 2025-05-22
 categories: [AI Tools, Developer Platforms, news]
 tags: [Von.dev, AI IDE, vibe coding, Free AI Coding Tools, developer productivity]
 image:
-  path: https://scriptxeno.github.io/2025-05-22-build-full-stack-apps-using-ai-von-dev-images/2025-05-22-build-full-stack-apps-using-ai-von-dev.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-22-build-full-stack-apps-using-ai-von-dev-images@main/2025-05-22-build-full-stack-apps-using-ai-von-dev.webp
   alt: AI-powered full-stack development with Von.dev platform
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

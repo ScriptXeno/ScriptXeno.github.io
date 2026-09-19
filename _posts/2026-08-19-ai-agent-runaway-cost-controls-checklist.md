@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, AI Tools, Vibe Coding]
 tags: [ai agents, agentic ai, AI Coding Agent, Claude Code Guide, GitHub Copilot, OpenCode, ai-cost-reduction, Cost-Saving Tech for SMBs]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-ai-agent-runaway-cost-controls-checklist-images/2026-08-19-ai-agent-runaway-cost-controls-checklist.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-ai-agent-runaway-cost-controls-checklist-images@main/2026-08-19-ai-agent-runaway-cost-controls-checklist.webp
   alt: A cost line chart spiking upward off the frame, with a limit marker placed before the spike begins
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

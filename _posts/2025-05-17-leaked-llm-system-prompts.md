@@ -6,7 +6,7 @@ date: 2025-05-17
 categories: [Artificial Intelligence, LLMs, news]
 tags: [leaked prompts, llm system prompt, Claude 3.5 Sonnet, OpenAI, ChatGPT system prompt, AI prompt injection, ethical AI, Claude prompt leak, system prompt structure, generative-ai, whisper leaks, anthropic ai, whisper ai, llm jailbreak, prompt engineering, prompt leak, AI behavior rules, ethical alignment, AI hallucination, Claude Haiku, AI transparency, whisper ai whistleblower, ChatGPT4o prompt leak, Claude Opus, prompt transparency, prompt formatting, AI safety, AI alignment, AI ethics, AI behavior modification, AI system prompts, AI prompt engineering, AI prompt design, ai, Claude, Anthropic]
 image:
-  path: https://scriptxeno.github.io/2025-05-17-leaked-llm-system-prompts-images/2025-05-17-leaked-llm-system-prompts.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2025-05-17-leaked-llm-system-prompts-images@main/2025-05-17-leaked-llm-system-prompts.webp
   alt: leaked llm system prompts from popular ai platforms exposed in open source whistleblower repo
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

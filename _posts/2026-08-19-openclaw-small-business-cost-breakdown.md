@@ -6,7 +6,7 @@ date: 2026-08-19
 categories: [AI Agents, AI, automation]
 tags: [OpenClaw, pricing, smb automation tools]
 image:
-  path: https://scriptxeno.github.io/2026-08-19-openclaw-small-business-cost-breakdown-images/2026-08-19-openclaw-small-business-cost-breakdown.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-08-19-openclaw-small-business-cost-breakdown-images@main/2026-08-19-openclaw-small-business-cost-breakdown.webp
   alt: Bar chart graphic showing three monthly cost tiers for running OpenClaw in a small business
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---

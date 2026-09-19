@@ -6,7 +6,7 @@ date: 2026-06-07
 categories: [AI Tools, Developer Platforms, news]
 tags: [best trending github repositories, ai coding tools, developer productivity, software engineering, ai agents, code understanding, automation tools, developer education, ai engineering, code visualization, persistent memory for ai agents, ai research workflows, video generation with ai, browser automation tools, financial services with ai, content creation with ai, ai infrastructure tools]
 image:
-  path: https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/2026-06-07-best-trending-github-repositories-2026.webp
+  path: https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/2026-06-07-best-trending-github-repositories-2026.webp
   alt: 12 trending open-source GitHub repositories developers are watching in 2026
   lqip: data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 ---
@@ -35,7 +35,7 @@ When evaluating repositories, consider:
 
 ## 1. CodeGraph
 
-![CodeGraph](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/codegraph.webp)
+![CodeGraph](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/codegraph.webp)
 
 ### What Is CodeGraph?
 
@@ -60,7 +60,7 @@ CodeGraph creates a searchable knowledge graph from source code, helping AI codi
 
 ## 2. Understand Anything
 
-![Understand Anything](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/Understand-Anything.webp)
+![Understand Anything](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/Understand-Anything.webp)
 
 ### What Is Understand Anything?
 
@@ -82,7 +82,7 @@ New developers can understand unfamiliar repositories significantly faster.
 
 ## 3. Agent Memory
 
-![Agent Memory](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/agentmemory.webp)
+![Agent Memory](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/agentmemory.webp)
 
 ### What Is Agent Memory?
 
@@ -98,7 +98,7 @@ Persistent memory is becoming one of the most important components of modern AI 
 
 ## 4. AI Engineering From Scratch
 
-![AI Engineering From Scratch](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/ai-engineering-from-scratch.webp)
+![AI Engineering From Scratch](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/ai-engineering-from-scratch.webp)
 
 ### What Is AI Engineering From Scratch?
 
@@ -116,7 +116,7 @@ A practical learning repository focused on helping developers understand modern 
 
 ## 5. Matt Pocock Skills
 
-![Matt Pocock Skills](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/skills.webp)
+![Matt Pocock Skills](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/skills.webp)
 
 ### What Is It?
 
@@ -132,7 +132,7 @@ The repository provides actionable knowledge rather than theoretical tutorials.
 
 ## 6. Academic Research Skills
 
-![Academic Research Skills](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/academic-research-skills.webp)
+![Academic Research Skills](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/academic-research-skills.webp)
 
 This repository demonstrates structured research workflows for AI-assisted research, writing, reviewing, and revision processes.
 
@@ -149,7 +149,7 @@ Best for:
 
 ## 7. ViMax
 
-![ViMax](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/ViMax.webp)
+![ViMax](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/ViMax.webp)
 
 ViMax is an emerging project focused on agentic video generation, combining multiple AI roles such as planning, directing, scripting, and generation within a single framework.
 
@@ -163,7 +163,7 @@ Video generation remains one of the fastest-growing AI categories.
 
 ## 8. CloakBrowser
 
-![CloakBrowser](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/CloakBrowser.webp)
+![CloakBrowser](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/CloakBrowser.webp)
 
 ### What Is CloakBrowser?
 
@@ -182,7 +182,7 @@ A customized Chromium-based browser designed for advanced automation workflows.
 
 ## 9. Financial Services by Anthropic
 
-![Financial Services](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/financial-services.webp)
+![Financial Services](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/financial-services.webp)
 
 This repository showcases practical AI applications within financial workflows and services. It demonstrates how large language models are increasingly being integrated into professional industries.
 
@@ -192,7 +192,7 @@ This repository showcases practical AI applications within financial workflows a
 
 ## 10. MoneyPrinterTurbo
 
-![MoneyPrinterTurbo](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/MoneyPrinterTurbo.webp)
+![MoneyPrinterTurbo](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/MoneyPrinterTurbo.webp)
 
 MoneyPrinterTurbo focuses on automated short-form video generation using AI models. It has attracted significant developer attention due to the growing creator economy.
 
@@ -209,7 +209,7 @@ MoneyPrinterTurbo focuses on automated short-form video generation using AI mode
 
 ## 11. 9Router
 
-![9Router](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/9router.webp)
+![9Router](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/9router.webp)
 
 9Router provides access management and routing systems for AI coding tools and providers. The project has seen substantial community interest because developers increasingly rely on multiple AI models.
 
@@ -219,7 +219,7 @@ MoneyPrinterTurbo focuses on automated short-form video generation using AI mode
 
 ## 12. Developer Roadmaps and Learning Repositories
 
-![Developer Roadmaps](https://scriptxeno.github.io/2026-06-07-best-trending-github-repositories-2026/AiToEarn.webp)
+![Developer Roadmaps](https://cdn.jsdelivr.net/gh/ScriptXeno/2026-06-07-best-trending-github-repositories-2026@main/AiToEarn.webp)
 
 Developer learning repositories continue to trend because structured learning paths remain one of the most valuable resources for software engineers. GitHub's Explore section consistently highlights educational repositories as developers seek guided learning experiences.
 
