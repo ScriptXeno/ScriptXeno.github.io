@@ -35,15 +35,22 @@ function slugify(input: string): string {
     .replace(/-+/g, "-");
 }
 
-function todayInKolkata(): string {
+// Front-matter `date` needs a real time component, not just YYYY-MM-DD -- Jekyll sorts
+// same-day posts by that field, and several bare-date posts on 2026-09-20 all collapsed
+// to midnight and sorted by filename instead of publish order (a real, observed bug).
+function nowInKolkata(): string {
   const parts = new Intl.DateTimeFormat("en-CA", {
     timeZone: "Asia/Kolkata",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
   }).formatToParts(new Date());
   const get = (t: string) => parts.find((p) => p.type === t)!.value;
-  return `${get("year")}-${get("month")}-${get("day")}`;
+  return `${get("year")}-${get("month")}-${get("day")} ${get("hour")}:${get("minute")}:${get("second")} +0530`;
 }
 
 const imageSchema = z.object({
@@ -102,7 +109,12 @@ export function registerPostTools(server: McpServer) {
         title: z.string(),
         description: z.string(),
         author: z.string().default("oceanofanything"),
-        date: z.string().optional().describe("YYYY-MM-DD; defaults to today (Asia/Kolkata)"),
+        date: z
+          .string()
+          .optional()
+          .describe(
+            "'YYYY-MM-DD HH:MM:SS +0530' (or bare YYYY-MM-DD); defaults to now, Asia/Kolkata, with time included so same-day posts sort correctly"
+          ),
         categories: z.array(z.string()),
         tags: z.array(z.string()),
         image: imageSchema,
@@ -116,9 +128,9 @@ export function registerPostTools(server: McpServer) {
         return errorResult(`Unknown author "${author}". Valid authors: ${validAuthors.join(", ")}`);
       }
 
-      const resolvedDate = date ?? todayInKolkata();
+      const resolvedDate = date ?? nowInKolkata();
       const resolvedSlug = slugify(slug ?? title);
-      const filename = `${resolvedDate}-${resolvedSlug}.md`;
+      const filename = `${resolvedDate.slice(0, 10)}-${resolvedSlug}.md`;
       const filePath = path.join(postsDir, filename);
       if (fs.existsSync(filePath)) {
         return errorResult(`A post already exists at ${filename}`);

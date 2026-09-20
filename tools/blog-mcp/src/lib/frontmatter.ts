@@ -159,13 +159,19 @@ export function parsePostFile(raw: string): { data: PostFrontMatter; content: st
   // "undefined" after concurrent write_post/list_tags calls from other posts' saves.
   const parsed = matter(raw, {});
   const data = parsed.data as PostFrontMatter;
-  if ("date" in data) {
-    (data as Record<string, unknown>).date = normalizeDate(data.date);
-  }
   if (typeof parsed.matter !== "string") {
     throw new Error(
       `gray-matter failed to extract a front-matter block from this file (got ${typeof parsed.matter} instead of a string) -- refusing to continue rather than risk corrupting the file.`
     );
+  }
+  // js-yaml auto-coerces an unquoted `date:` scalar into a native Date, which loses
+  // whether the author wrote a bare YYYY-MM-DD or a full YYYY-MM-DD HH:MM:SS +ZZZZ --
+  // a bare date and midnight UTC are indistinguishable once collapsed into a Date object.
+  // Read the exact authored string back off the raw front matter instead of trusting the
+  // coerced value, so a post's time component (or lack of one) always round-trips exactly.
+  const rawDateMatch = parsed.matter.match(/^date:\s*(.+)$/m);
+  if (rawDateMatch) {
+    (data as Record<string, unknown>).date = rawDateMatch[1].trim();
   }
   return { data, content: parsed.content, rawFrontMatter: parsed.matter };
 }

@@ -2,7 +2,7 @@
 title: "Google Maps Scraper Kit: What 673 Stars, 3 Open PRs, and Google's ToS Actually Mean"
 description: "A GitHub deep-dive on Mahanaicoach/google-maps-scraper-kit: its real commit history, unmerged pull requests, unusual fork ratio, and what Google's ToS and rate-limit risk actually look like."
 author: oceanofanything
-date: 2026-09-20
+date: 2026-09-20 18:58:00 +0530
 categories: [GitHub Projects, AI Tools, Developer Platforms]
 tags: [github, opensource, docker, docker-compose, python, self-hosted, lead-generation, web-crawler, contact-extraction, data-collection, AI Coding Agent]
 image:
