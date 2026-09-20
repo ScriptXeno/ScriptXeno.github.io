@@ -29,3 +29,6 @@ assets/js/dist
 tools/blog-mcp/.env
 tools/blog-mcp/generated/
 tools/blog-mcp/build/
+
+# Local-only scratch data, never pushed
+GA4_DATA_28_DAYS/
