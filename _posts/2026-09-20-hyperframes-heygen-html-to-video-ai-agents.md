@@ -2,7 +2,7 @@
 title: "HyperFrames: HeyGen's Open-Source Bet That AI Agents Should Direct Your Videos, Not Just Generate Them"
 description: HyperFrames turns HTML into video with AI agents writing the code. How HeyGen's open-source Remotion rival works, and whether the hype holds up.
 author: oceanofanything
-date: 2026-09-20
+date: 2026-09-20 16:59:00 +0530
 categories: [AI Agents, Generative Video, GitHub Projects]
 tags: [ai, agentic ai, ai agents, AI video, video generation with ai, MCP, open-source, github, generative-ai]
 image:

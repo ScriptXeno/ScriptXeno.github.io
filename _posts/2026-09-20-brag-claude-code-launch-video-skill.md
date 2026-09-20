@@ -2,7 +2,7 @@
 title: "/brag: The Claude Code Skill That Makes Your Project's Launch Video For You"
 description: A Claude Code skill that writes your launch video's brief and hands rendering to HyperFrames — how /brag's cross-agent trick works, and if it's worth it.
 author: oceanofanything
-date: 2026-09-20
+date: 2026-09-20 17:42:00 +0530
 categories: [AI Agents, Developer Platforms, Generative Video, GitHub Projects, Vibe Coding]
 tags: [ai, ai agents, agentic ai, vibe coding, Claude, Claude Code Guide, developer-tools, open-source, github, video generation with ai, generative-ai, creative-ai, AI video, skills.sh]
 image:

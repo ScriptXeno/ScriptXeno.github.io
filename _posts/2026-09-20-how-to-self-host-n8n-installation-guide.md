@@ -2,7 +2,7 @@
 title: "How to Self-Host n8n: A Real Installation Guide (Docker, 2026)"
 description: "A real 2026 Docker Compose guide to self-hosting n8n: hardware sizing, HTTPS setup, the new runner container, encryption key pitfalls, and true cost vs n8n Cloud."
 author: oceanofanything
-date: 2026-09-20
+date: 2026-09-20 06:10:00 +0530
 categories: [Self-Hosting, automation]
 tags: [n8n, self-hosted, docker, docker-compose, workflow automation, automation tools, linux server, ai infrastructure tools]
 image:

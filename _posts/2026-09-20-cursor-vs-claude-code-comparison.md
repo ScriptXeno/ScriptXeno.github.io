@@ -2,7 +2,7 @@
 title: "Cursor vs Claude Code: A Real Head-to-Head Comparison (2026)"
 description: Cursor vs Claude Code compared on 2026 pricing, security incidents, model access changes, and real developer survey data, with a source for every number cited.
 author: oceanofanything
-date: 2026-09-20
+date: 2026-09-20 06:20:00 +0530
 categories: [AI Tools, Developer Platforms]
 tags: [Cursor, Claude, GitHub Copilot, AI coding assistant, ai coding tools, developer productivity, VS Code fork, Cursor security vulnerability]
 image:
